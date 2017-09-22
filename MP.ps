@@ -1,0 +1,1842 @@
+%!PS-Adobe-2.0
+%%BoundingBox: 0 0 612 846
+%%Title: MP.abc
+%%Creator: abcm2ps-8.13.8
+%%CreationDate: Sep 23, 2017 00:19
+%%Pages: (atend)
+%%LanguageLevel: 3
+%%EndComments
+%CommandLine: -O= MP.abc
+
+%%BeginSetup
+/!{bind def}bind def
+/bdef{bind def}!
+/T/translate load def
+/M/moveto load def
+/RM/rmoveto load def
+/L/lineto load def
+/RL/rlineto load def
+/C/curveto load def
+/RC/rcurveto load def
+/SLW/setlinewidth load def
+/defl 0 def
+/dlw{0.7 SLW}!
+/creator [(abcm2ps) 8 13 8] def
+/xydef{/y exch def/x exch def}!
+/xymove{/x 2 index def/y 1 index def M}!
+/showc{dup stringwidth pop .5 mul neg 0 RM show}!
+/showr{dup stringwidth pop neg 0 RM show}!
+/showb{	dup currentpoint 3 -1 roll show
+	.6 SLW
+	exch 2 sub exch 3 sub 3 -1 roll
+	stringwidth pop 4 add
+	currentfont/ScaleMatrix get 0 get .8 mul
+	4 add rectstroke}!
+/oct{/Times-Roman 12 selectfont M(8)show}!
+/octu{oct}!
+/octl{oct}!
+/bm{	M 3 copy RL neg 0 exch RL neg exch neg exch RL 0 exch RL fill}!
+/bnum{M/Times-Italic 12 selectfont showc}!
+/bnumb{	currentgray/Times-Italic 12 selectfont
+	3 index stringwidth pop 4 add
+	dup .5 mul neg 4 index add 3 index 3 -1 roll 8
+	1.0 setgray rectfill setgray M showc}!
+/tubr{3 sub M 0 3 RL RL 0 -3 RL dlw stroke}!
+/tubrl{3 add M 0 -3 RL RL 0 3 RL dlw stroke}!
+/dt{x y M RM currentpoint 1.2 0 360 arc fill}!
+/dnb{	dlw M -3.2 2 RM
+	0 7.2 RL
+	6.4 0 RM
+	0 -7.2 RL
+	currentpoint stroke M
+	-6.4 4.8 RM
+	0 2.4 RL
+	6.4 0 RL
+	0 -2.4 RL
+	fill}!
+/upb{	dlw M -2.6 9.4 RM
+	2.6 -8.8 RL
+	2.6 8.8 RL
+	stroke}!
+/grm{	M -5 2.5 RM
+	5 8.5 5.5 -4.5 10 2 RC
+	-5 -8.5 -5.5 4.5 -10 -2 RC fill}!
+/stc{	3 add M currentpoint 1.2 0 360 arc fill}!
+/emb{	1.2 SLW 1 setlinecap M -2.5 3 RM 5 0 RL stroke 0 setlinecap}!
+/cpu{	M -6 0 RM
+	0.4 7.3 11.3 7.3 11.7 0 RC
+	-1.3 6 -10.4 6 -11.7 0 RC fill}!
+/sld{	M -7.2 -4.8 RM
+	1.8 -0.7 4.5 0.2 7.2 4.8 RC
+	-2.1 -5 -5.4 -6.8 -7.6 -6 RC fill}!
+/trl{	/Times-BoldItalic 16 selectfont M -4 2 RM(tr)show}!
+/fng{/Bookman-Demi 8 selectfont M -3 1 RM show}!
+/dacs{/Times-Roman 16 selectfont 3 add M showc}!
+/crdc{/Times-Italic 14 selectfont 5 add M show}!
+/brth{/Times-BoldItalic 30 selectfont 6 add M(,)show}!
+/pf{/Times-BoldItalic 16 selectfont 5 add M show}!
+/sfz{	M -7 5 RM pop
+	/Times-Italic 14 selectfont(s)show
+	/Times-BoldItalic 16 selectfont(f)show
+	/Times-Italic 14 selectfont(z)show}!
+/cresc{	1 SLW M dup 5 RM
+	defl 1 and 0 eq
+	{dup neg 4 RL 4 RL}
+	{dup neg 2.2 RL 0 3.6 RM 2.2 RL}
+	ifelse stroke}!
+/dim{	1 SLW 5 add M
+	defl 2 and 0 eq
+	{dup 4 RL neg 4 RL}
+	{dup 2.2 RL 0 3.6 RM neg 2.2 RL}
+	ifelse stroke}!
+/o8va{	M
+	defl 1 and 0 eq
+	{14 sub currentpoint
+	-5 0 RM /Times-BoldItalic 12 selectfont(8)show
+	0 4 RM /Times-BoldItalic 10 selectfont(va)show
+	M 14 0 RM}if 0 6 RM
+	[6] 0 setdash 5 sub 0 RL currentpoint stroke [] 0 setdash
+	M defl 2 and 0 eq
+	{0 -6 RL stroke}if}!
+/o8vb{	M
+	defl 1 and 0 eq
+	{8 sub currentpoint
+	-5 0 RM /Times-BoldItalic 12 selectfont(8)show
+	0 4 RM /Times-BoldItalic 10 selectfont(vb)show
+	M 8 0 RM}if
+	[6] 0 setdash 5 sub 0 RL currentpoint stroke [] 0 setdash
+	M defl 2 and 0 eq
+	{0 6 RL stroke}if}!
+/dplus{	1.2 SLW 0.5 add M 0 6 RL -3 -3 RM 6 0 RL stroke}!
+/turnx{	2 copy turn .6 SLW 1.5 add M 0 9 RL stroke}!
+/lphr{1.2 SLW M 0 -18 RL stroke}!
+/mphr{1.2 SLW M 0 -12 RL stroke}!
+/sphr{1.2 SLW M 0 -6 RL stroke}!
+/ltr{	gsave 4 add T
+	0 6 3 -1 roll{
+		2{
+			0 0.4 M
+			2 1.9 3.4 2.3 3.9 0 C
+			2.1 0 L
+			1.9 0.8 1.4 0.7 0 -0.4 C
+			fill
+			180 rotate -6 0 T
+		}repeat
+		pop 6 0 T
+	}for
+	grestore}!
+/arp{gsave 90 rotate exch neg ltr grestore}!
+/gliss{	gsave 2 copy T
+exch 4 -1 roll exch sub 3 1 roll sub
+2 copy exch atan dup rotate
+exch pop cos div
+8 0 M 14 sub 0 RL stroke grestore}!
+/glisq{	gsave 2 copy T
+exch 4 -1 roll exch sub 3 1 roll sub
+2 copy exch atan dup rotate
+exch pop cos div
+17 sub 8 -4 ltr grestore}!
+/wedge{1 add M -1.5 5 RL 3 0 RL -1.5 -5 RL fill}!
+/opend{dlw M currentpoint 3 add 2.5 -90 270 arc stroke}!
+/snap{	dlw 2 copy M -3 6 RM
+	0 5 6 5 6 0 RC
+	0 -5 -6 -5 -6 0 RC
+	5 add M 0 -6 RL stroke}!
+/thumb{	dlw 2 copy M -2.5 7 RM
+	0 6 5 6 5 0 RC
+	0 -6 -5 -6 -5 0 RC
+	2 add M 0 -4 RL stroke}!
+/trem{	M -4.5 0 RM{
+		currentpoint
+		9 3 RL 0 -3 RL -9 -3 RL 0 3 RL
+		fill 5.4 sub M
+	}repeat}!
+/hl{	.8 SLW M -6 0 RM 12 0 RL stroke}!
+/hl1{	.8 SLW M -7 0 RM 14 0 RL stroke}!
+/hl2{	.7 SLW M -9 0 RM 18 0 RL stroke}!
+/gsc{gsave y T .8 dup scale 0 0}!
+/uflat{<95200028
+	0064000001b802ee
+	006402ea
+	008402ea
+	0084000c
+	00640008
+	00840154
+	00b2019c011c01ae01540168
+	01b800fa00dc00220084000c
+	00840028
+	00ba0028014c00f60106014a
+	00d401860084014e00840128
+	><0b00010303030a0105050105050a>}cvlit def
+/unat{<95200022
+	003cff42013602ee
+	006002ee
+	004002ee
+	00400022
+	0060002a
+	01160060
+	0116ff46
+	0136ff46
+	01360208
+	011401fe
+	006001cc
+	006002ee
+	0060009e
+	0060015c
+	01160190
+	011600d4
+	><0b00012a030a0123030a>}cvlit def
+/usharp{<95200024
+	003cff42019a02ee
+	008802be
+	0088ff44
+	00a8ff44
+	00a802be
+	0128ff76
+	0148ff76
+	014802ee
+	012802ee
+	004001d0
+	0040015c
+	019201bc
+	01920230
+	00400076
+	00400002
+	01920064
+	019200d6
+	><0b000123030a0123030a0123030a0123030a>}cvlit def
+/udblesharp{<95200046
+	003c006e019001c2
+	00f0011a
+	01180140013a015e018e015e
+	018e01be
+	012e01be
+	012e016a0110014800ea0122
+	00c2014800a4016a00a401be
+	004401be
+	0044015e
+	009a015e00bc014000e2011a
+	00bc00f4009a00d6004400d6
+	00440076
+	00a40076
+	00a400ca00c200ec00ea0112
+	011000ec012e00ca012e0076
+	018e0076
+	018e00d6
+	013a00d6011800f400f0011a
+	><0b0001050303050503030505030305050303050a>}cvlit def
+/udbleflat{<9520004c
+	00140000022602ee
+	001402ea
+	002c02ea
+	002c000c
+	00140008
+	002c0154
+	004e019c009e01ae00c80168
+	011300fa00660022002c000c
+	002c0028
+	0054002800c200f6008d014a
+	00680186002c014e002c0128
+	010e02ea
+	012602ea
+	0126000c
+	010e0008
+	01260154
+	0148019c019801ae01c20168
+	020d00fa016000220126000c
+	01260028
+	014e002801bc00f60187014a
+	016201860126014e01260128
+	><0b000123030a0105050105050a0123030a0105050105050a>}cvlit def
+/sh1{	gsave T .9 SLW
+	0 -7.8 M 0 15.4 RL stroke
+	-1.8 -2.7 M 3.6 1.1 RL 0 -2.2 RL -3.6 -1.1 RL 0 2.2 RL fill
+	-1.8 3.7 M 3.6 1.1 RL 0 -2.2 RL -3.6 -1.1 RL 0 2.2 RL fill
+	grestore}!
+/sh513{	gsave T .8 SLW
+	-2.5 -8.7 M 0 15.4 RL
+	0 -7.8 M 0 15.4 RL
+	2.5 -6.9 M 0 15.4 RL stroke
+	-3.7 -3.1 M 7.4 2.2 RL 0 -2.2 RL -7.4 -2.2 RL 0 2.2 RL fill
+	-3.7 3.2 M 7.4 2.2 RL 0 -2.2 RL -7.4 -2.2 RL 0 2.2 RL fill
+	grestore}!
+/ft1{gsave -1 1 scale exch neg exch ft0 grestore}!
+/ftx{	-1.4 2.7 RM
+	5.7 3.1 5.7 -3.6 0 -6.7 RC
+	3.9 4 4 7.6 0 5.8 RC
+	currentpoint fill 7.1 add M
+	dlw 0 -12.4 RL stroke}!
+/ft513{2 copy gsave -1 1 scale exch neg 3 add exch M ftx grestore
+	M 1.5 0 RM ftx}!
+/sh4tb[/.notdef/sh1/sh0/sh513/dsh0]def
+/sh4{sh4tb exch get cvx exec}!
+/ft4tb[/.notdef/ft1/ft0/ft513/dft0]def
+/ft4{ft4tb exch get cvx exec}!
+/bar{M 1 SLW 0 exch RL stroke}!
+/dotbar{[5] 0 setdash bar [] 0 setdash}!
+/thbar{3 -1 roll 3 exch rectfill}!
+/rdots{	2 copy 9 add M currentpoint 1.2 0 360 arc
+	15 add M currentpoint 1.2 0 360 arc fill}!
+/pmsig{0.3 SLW 12 add M currentpoint 5 0 360 arc stroke}!
+/pMsig{2 copy pmsig 12 add M currentpoint 1.3 0 360 arc fill}!
+/imsig{0.3 SLW 12 add 2 copy 5 add M 5 90 270 arc stroke}!
+/iMsig{2 copy imsig 12 add M currentpoint 1.3 0 360 arc fill}!
+/tsig{	1 add M gsave/Times-Bold 16 selectfont 1.2 1 scale
+	currentpoint 3 -1 roll showc
+	12 add M showc grestore}!
+/stsig{	7 add M gsave/Times-Bold 18 selectfont 1.2 1 scale
+	showc grestore}!
+/sep0{	dlw 0 M 0 RL stroke}!
+/bracket{M -5 2 RM currentpoint
+	-1.7 2 RM 10.5 -1 12 4.5 12 3.5 RC
+	0 -1 -3.5 -5.5 -8.5 -5.5 RC fill
+	3 SLW 2 add M
+	0 exch neg 8 sub RL currentpoint stroke
+	M -1.7 0 RM
+	10.5 1 12 -4.5 12 -3.5 RC
+	0 1 -3.5 5.5 -8.5 5.5 RC fill}!
+/srep{	M -1 -6 RM 11 12 RL 3 0 RL -11 -12 RL -3 0 RL fill}!
+/repbra{gsave dlw T 0 -20 M
+	0 20 3 index 1 and 1 eq{RL}{RM}ifelse 0
+	RL 2 and 2 eq{0 -20 RL}if stroke
+	4 exch M show grestore}!
+/SL{M RC RL RC closepath fill}!
+/dSL{	M [4] 0 setdash .8 SLW RC stroke [] 0 setdash}!
+/strw{	gsave 0 -2000 M/strop/show load def 1 setgray str
+	0 setgray currentpoint pop/w exch def grestore}!
+/jshow{w 0 32 4 -1 roll widthshow}!
+/strop/show load def
+/arrayshow{{dup type/stringtype eq{strop}{glyphshow}ifelse}forall}def
+/gcshow{show}!
+/agcshow{arrayshow}!
+/box{.6 SLW rectstroke}!
+/boxend{currentpoint pop/x exch def}!
+/boxmark{currentpoint pop dup x gt
+	{/x exch def}{pop}ifelse}!
+/boxdraw{x 3 index sub 2 add exch box}!
+/gxshow{0 9 3 -1 roll widthshow}!
+/anshow{show}!
+/aanshow{arrayshow}!
+/wln{M .8 SLW 0 RL stroke}!
+/hyph{	.8 SLW 3 add M
+	dup cvi 20 idiv 3 mul 25 add
+	1 index cvi exch idiv 1 add exch 1 index div
+	dup 4 sub 3 1 roll .5 mul 2 sub 0 RM
+	{4 0 RL dup 0 RM}repeat stroke pop}!
+/lyshow{show}!
+/alyshow{arrayshow}!
+/pfthd{/x 2 index def/y 1 index def dsh0
+	.7 SLW x y M x y 4 0 360 arc stroke}!
+/pdshhd{pshhd}!
+/pdfthd{pfthd}!
+/ghd{	xymove
+	1.7 1.5 RM
+	-1.32 2.31 -5.94 -0.33 -4.62 -2.64 RC
+	1.32 -2.31 5.94 0.33 4.62 2.64 RC fill}!
+/gua{x y M -1 4 RM RL stroke}!
+/gda{x y M -5 -4 RM RL stroke}!
+/ghl{	.6 SLW M -3.5 0 RM 7 0 RL stroke}!
+/gsl{dlw M RC stroke}!
+/custos{2 copy M -4 0 RM 2 2.5 RL 2 -2.5 RL 2 2.5 RL 2 -2.5 RL
+	-2 -2.5 RL -2 2.5 RL -2 -2.5 RL -2 2.5 RL fill
+	M 3.5 0 RM 5 7 RL dlw stroke}!
+/glypharray{{glyphshow}forall}!
+/showerror{gsave 1 0.7 0.7 setrgbcolor 2.5 SLW newpath
+	30 0 360 arc stroke grestore}!
+/pdfmark where{pop}{userdict/pdfmark/cleartomark load put}ifelse
+0 setlinecap 0 setlinejoin
+/hbrce{	-2.5 1 RM
+	-4.5 -4.6 -7.5 -12.2 -4.4 -26.8 RC
+	3.5 -14.3 3.2 -21.7 -2.1 -24.2 RC
+	7.4 2.4 7.3 14.2 3.5 29.5 RC
+	-2.7 9.5 -1.5 16.2 3 21.5 RC
+	fill}!
+/brace{	gsave T 0 0 M .01 mul 1 exch scale hbrce
+	0 -100 M 1 -1 scale hbrce grestore}!
+/sgno{	3 add M currentpoint currentpoint currentpoint
+	1.5 -1.7 6.4 0.3 3 3.7 RC
+	-10.4 7.8 -8 10.6 -6.5 11.9 RC
+	4 1.9 5.9 -1.7 4.2 -2.6 RC
+	-1.3 -0.7 -2.9 1.3 -0.7 2 RC
+	-1.5 1.7 -6.4 -0.3 -3 -3.7 RC
+	10.4 -7.8 8 -10.6 6.5 -11.9 RC
+	-4 -1.9 -5.9 1.7 -4.2 2.6 RC
+	1.3 0.7 2.9 -1.3 0.7 -2 RC
+	fill
+	M 0.8 SLW -6 1.2 RM 12.6 12.6 RL stroke
+	7 add exch 6 sub exch 1.2 0 360 arc fill
+	8 add exch 6 add exch 1.2 0 360 arc fill}!
+/coda{	1 SLW 2 add 2 copy M 0 20 RL
+	2 copy M -10 10 RM 20 0 RL stroke
+	10 add 6 0 360 arc 1.7 SLW stroke}!
+/utclef{<95200072
+	0000ff2e01c2030c
+	00ac0056
+	0064007f006400f400e00112
+	0176011c01bc0056013a0012
+	00c8ffde002700120015009a
+	0006014f0072017f00f101e8
+	0149023f0140026d012f02ba
+	00fc029900d1025100d60200
+	00e700f500fa008a0107ffc2
+	010dff6200f4ff3c00baff3b
+	006aff3a003cff98007dffc0
+	00d2ffe90102ff5b009cff57
+	00b3ff4600f8ff3200f6ffb3
+	00ec009200cf010900c4021c
+	00c4027600c402be01240304
+	015c02bc0163021e013a01e3
+	00f001790039013b003b00a7
+	0044000e00cfffee01370022
+	018d0063015400e200e700d2
+	00a000c6007e008f00ac0056
+	><0b000132050a>}cvlit def
+/tclef{gsave T -10 -6 T .045 dup scale utclef ufill grestore}!
+/ucclef{<95200066
+	006effbe01e70256
+	00d10108
+	00d10002
+	00c40002
+	00c40213
+	00d10213
+	00d10113
+	00ea012700fa013701100180
+	011e0161011d014d0148013a
+	01a2011801a80244011f01f3
+	015301e0013a01a3011401a6
+	00ba01cc01350256019f01eb
+	01e7019c01a000fa01190131
+	0109010a
+	011900e4
+	01a0011b01e70079019f002a
+	0135ffbe00ba00490114006f
+	013a007201530035011f0022
+	01a8ffd101a200fd014800db
+	011d00c8011b00bd0110009b
+	00fa00e400ea00f400d10108
+	006e0213
+	00a70213
+	00a70002
+	006e0002
+	006e0213
+	><0b000125032605220326050a0124030a>}cvlit def
+/cclef{gsave T -12 -12 T .045 dup scale ucclef ufill grestore}!
+/ubclef{<95200046
+	00000050019a0244
+	00010057
+	007d007a00df00a500ff0143
+	012a022700580239003f01aa
+	007a01fa00dc0194009b015c
+	005d012d00280172003101b4
+	00460241013f023c01430180
+	014200d100d9007800010057
+	01660151
+	016601750199017301990151
+	0199012c0166012d01660151
+	016401d2
+	016401f6019701f4019701d2
+	019701ac016401ad016401d2
+	><0b000126050a0122050a0122050a>}cvlit def
+/bclef{gsave T -10 -18 T .045 dup scale ubclef ufill grestore}!
+/pclef{	exch 2.7 sub exch -9 add 5.4 18 1.4 SLW rectstroke}!
+/spclef{pclef}!
+/stclef{gsave T -10 -6 T .037 dup scale utclef ufill grestore}!
+/scclef{gsave T -12 -10 T .037 dup scale ucclef ufill grestore}!
+/sbclef{gsave T -10 -15 T .037 dup scale ubclef ufill grestore}!
+/csig{	M
+	6 5.3 RM
+	0.9 0 2.3 -0.7 2.4 -2.2 RC
+	-1.2 2 -3.6 -0.1 -1.6 -1.7 RC
+	2 -1 3.8 3.5 -0.8 4.7 RC
+	-2 0.4 -6.4 -1.3 -5.8 -7 RC
+	0.4 -6.4 7.9 -6.8 9.1 -0.7 RC
+	-2.3 -5.6 -6.7 -5.1 -6.8 0 RC
+	-0.5 4.4 0.7 7.5 3.5 6.9 RC
+	fill}!
+/ctsig{dlw 2 copy csig M 5 -8 RM 0 16 RL stroke}!
+/HDD{	dlw HD
+	x y M -6 -4 RM 0 8 RL
+	12 0 RM 0 -8 RL stroke}!
+/breve{	xymove
+	2.5 SLW -6 -2.7 RM 12 0 RL
+	0 5.4 RM -12 0 RL stroke
+	dlw x y M -6 -5 RM 0 10 RL
+	12 0 RM 0 -10 RL stroke}!
+/HD{	xymove
+	-2.7 1.4 RM
+	1.5 2.8 6.9 0 5.3 -2.7 RC
+	-1.5 -2.8 -6.9 0 -5.3 2.7 RC
+	8.3 -1.4 RM
+	0 1.5 -2.2 3 -5.6 3 RC
+	-3.4 0 -5.6 -1.5 -5.6 -3 RC
+	0 -1.5 2.2 -3 5.6 -3 RC
+	3.4 0 5.6 1.5 5.6 3 RC fill}!
+/Hd{	xymove
+	3 1.6 RM
+	-1 1.8 -7 -1.4 -6 -3.2 RC
+	1 -1.8 7 1.4 6 3.2 RC
+	0.5 0.3 RM
+	2 -3.8 -5 -7.6 -7 -3.8 RC
+	-2 3.8 5 7.6 7 3.8 RC fill}!
+/uhd{{	100 -270 640 280
+	560 82
+	474 267 105 105 186 -80
+	267 -265 636 -102 555 82
+	}<0b000122050a>}cvlit def
+/hd{	/x 2 index def/y 1 index def
+	gsave T -7.4 0 T .02 dup scale uhd ufill grestore}!
+/ft0{	gsave T -3.5 -3.5 T .018 dup scale uflat ufill grestore}!
+/nt0{	gsave T -3 -5 T .018 dup scale unat ufill grestore}!
+/sh0{	gsave T -4 -5 T .018 dup scale usharp ufill grestore}!
+/dsh0{	gsave T -4 -5 T .018 dup scale udblesharp ufill grestore}!
+/pshhd{/x 2 index def/y 1 index def dsh0}!
+/dft0{	gsave T -4 -3.5 T .018 dup scale udbleflat ufill grestore}!
+/accent{1.2 SLW M -4 1 RM 8 2 RL -8 2 RL stroke}!
+/marcato{M -3 0 RM 3 7 RL 3 -7 RL -1.5 0 RL -1.8 4.2 RL -1.7 -4.2 RL fill}!
+/hld{	1.5 add 2 copy 1.5 add M currentpoint 1.3 0 360 arc
+	M -7.5 0 RM
+	0 11.5 15 11.5 15 0 RC
+	-0.25 0 RL
+	-1.25 9 -13.25 9 -14.5 0 RC
+	fill}!
+/r00{	xymove -1.5 -6 RM currentpoint 3 12 rectfill}!
+/r0{	xymove -1.5 0 RM currentpoint 3 6 rectfill}!
+/r1{	xymove -3.5 3 RM currentpoint 7 3 rectfill}!
+/r2{	xymove -3.5 0 RM currentpoint 7 3 rectfill}!
+/r4{	xymove
+	-1 8.5 RM
+	3.6 -5.1 RL
+	-2.1 -5.2 RL
+	2.2 -4.3 RL
+	-2.6 2.3 -5.1 0 -2.4 -2.6 RC
+	-4.8 3 -1.5 6.9 1.4 4.1 RC
+	-3.1 4.5 RL
+	1.9 5.1 RL
+	-1.5 3.5 RL
+	fill}!
+/r8e{	-1.5 -1.5 -2.4 -2 -3.6 -2 RC
+	2.4 2.8 -2.8 4 -2.8 1.2 RC
+	0 -2.7 4.3 -2.4 5.9 -0.6 RC
+	fill}!
+/r8{	xymove
+	.5 SLW 3.3 4 RM
+	-3.4 -9.6 RL stroke
+	x y M 3.4 4 RM r8e}!
+/r16{	xymove
+	.5 SLW 3.3 4 RM
+	-4 -15.6 RL stroke
+	x y M 3.4 4 RM r8e
+	x y M 1.9 -2 RM r8e}!
+/r32{	xymove
+	.5 SLW 4.8 10 RM
+	-5.5 -21.6 RL stroke
+	x y M 4.9 10 RM r8e
+	x y M 3.4 4 RM r8e
+	x y M 1.9 -2 RM r8e}!
+/r64{	xymove
+	.5 SLW 4.8 10 RM
+	-7 -27.6 RL stroke
+	x y M 4.9 10 RM r8e
+	x y M 3.4 4 RM r8e
+	x y M 1.9 -2 RM r8e
+	x y M 0.4 -8 RM r8e}!
+/r128{	xymove
+	.5 SLW 5.8 16 RM
+	-8.5 -33.6 RL stroke
+	x y M 5.9 16 RM r8e
+	x y M 4.4 10 RM r8e
+	x y M 2.9 4 RM r8e
+	x y M 1.4 -2 RM r8e
+	x y M -0.1 -8 RM r8e}!
+/mrest{	M currentpoint 1 SLW
+	-20 -6 RM 0 12 RL 40 0 RM 0 -12 RL stroke
+	M 5 SLW -20 0 RM 40 0 RL stroke}!
+/mrep{	2 copy 2 copy
+	M -5 3 RM currentpoint 1.4 0 360 arc
+	M 5 -3 RM currentpoint 1.4 0 360 arc
+	M -7 -6 RM 11 12 RL 3 0 RL -11 -12 RL -3 0 RL fill}!
+/mrep2{	2 copy 2 copy
+	M -5 6 RM currentpoint 1.4 0 360 arc
+	M 5 -6 RM currentpoint 1.4 0 360 arc fill
+	M 1.8 SLW
+	-7 -8 RM 14 10 RL -14 -4 RM 14 10 RL stroke}!
+/turn{	M 5.2 8 RM
+	1.4 -0.5 0.9 -4.8 -2.2 -2.8 RC
+	-4.8 3.5 RL
+	-3 2 -5.8 -1.8 -3.6 -4.4 RC
+	1 -1.1 2 -0.8 2.1 0.1 RC
+	0.1 0.9 -0.7 1.2 -1.9 0.6 RC
+	-1.4 0.5 -0.9 4.8 2.2 2.8 RC
+	4.8 -3.5 RL
+	3 -2 5.8 1.8 3.6 4.4 RC
+	-1 1.1 -2 0.8 -2.1 -0.1 RC
+	-0.1 -0.9 0.7 -1.2 1.9 -0.6 RC
+	fill}!
+/umrd{	4 add M
+	2.2 2.2 RL 2.1 -2.9 RL 0.7 0.7 RL
+	-2.2 -2.2 RL -2.1 2.9 RL -0.7 -0.7 RL
+	-2.2 -2.2 RL -2.1 2.9 RL -0.7 -0.7 RL
+	2.2 2.2 RL 2.1 -2.9 RL 0.7 0.7 RL fill}!
+/lmrd{	2 copy umrd M .6 SLW 0 8 RL stroke}!
+/ped{	/Times-BoldItalic 16 selectfont M -10 2 RM(Ped)show}!
+/pedoff{	/Times-BoldItalic 16 selectfont M -4 2 RM(*)show}!
+/longa{	xymove
+	2.5 SLW -6 -2.7 RM 12 0 RL
+	0 5.4 RM -12 0 RL stroke
+	dlw x y M -6 -5 RM 0 10 RL
+	12 0 RM 0 -16 RL stroke}!
+/su{dlw x y M 3.5 1.0 RM 1.0 sub 0 exch RL stroke}!
+/sd{dlw x y M -3.5 -1.0 RM 1.0 add 0 exch RL stroke}!
+/sfu{	dlw x y M 3.5 1.0 RM
+	1.0 sub 0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 -5.6 9.6 -9 5.6 -18.4 RC
+		1.6 6 -1.3 11.6 -5.6 12.8 RC fill
+	  }{
+		1 sub{	currentpoint
+			0.9 -3.7 9.1 -6.4 6 -12.4 RC
+			1 5.4 -4.2 8.4 -6 8.4 RC
+			fill 5.4 sub M
+		}repeat
+		1.2 -3.2 9.6 -5.7 5.6 -14.6 RC
+		1.6 5.4 -1 10.2 -5.6 11.4 RC fill
+	  }ifelse}!
+/sfd{	dlw x y M -3.5 -1.0 RM
+	1.0 add 0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 5.6 9.6 9 5.6 18.4 RC
+		1.6 -6 -1.3 -11.6 -5.6 -12.8 RC fill
+	  }{
+		1 sub{	currentpoint
+			0.9 3.7 9.1 6.4 6 12.4 RC
+			1 -5.4 -4.2 -8.4 -6 -8.4 RC
+			fill 5.4 add M
+		}repeat
+		1.2 3.2 9.6 5.7 5.6 14.6 RC
+		1.6 -5.4 -1 -10.2 -5.6 -11.4 RC fill
+	  }ifelse}!
+/sfs{	dup 0 lt{
+		dlw x y M -3.5 -1.0 RM
+		1.0 add 0 exch RL currentpoint stroke
+		M{	currentpoint
+			7 3.2 RL
+			0 3.2 RL
+			-7 -3.2 RL
+			fill 5.4 add M
+		}repeat
+	}{
+		dlw x y M 3.5 1.0 RM
+		1.0 sub 0 exch RL currentpoint stroke
+		M{	currentpoint
+			7 -3.2 RL
+			0 -3.2 RL
+			-7 3.2 RL
+			fill 5.4 sub M
+		}repeat
+	}ifelse}!
+/gu{	.6 SLW x y M
+	2.3 0 RM 0 exch RL stroke}!
+/gd{	.6 SLW x y M
+	-2.3 0 RM 0 exch RL stroke}!
+/sgu{	.6 SLW x y M 2.3 0 RM
+	0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 -3.4 5.6 -3.8 3 -10 RC
+		1.2 4.4 -1.4 7 -3 7 RC fill
+	  }{
+		{	currentpoint
+			1 -3.2 5.6 -2.8 3.2 -8 RC
+			1.4 4.8 -2.4 5.4 -3.2 5.2 RC
+			fill 3.5 sub M
+		}repeat
+	  }ifelse}!
+/sgd{	.6 SLW x y M -2.3 0 RM
+	0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 3.4 5.6 3.8 3 10 RC
+		1.2 -4.4 -1.4 -7 -3 -7 RC fill
+	  }{
+		{	currentpoint
+			1 3.2 5.6 2.8 3.2 8 RC
+			1.4 -4.8 -2.4 -5.4 -3.2 -5.2 RC
+			fill 3.5 add M
+		}repeat
+	  }ifelse}!
+/sgs{	.6 SLW x y M 2.3 0 RM
+	0 exch RL currentpoint stroke
+	M{	currentpoint
+		3 -1.5 RL 0 -2 RL -3 1.5 RL
+		closepath fill 3 sub M
+	}repeat}!
+/mkfont{findfont dup length 1 add dict begin
+	{1 index/FID ne{def}{pop pop}ifelse}forall
+	CharStrings/double_sharp known not{
+	    /CharStrings CharStrings dup length dict copy def
+	    FontMatrix 0 get 1 eq{
+		CharStrings/sharp{pop .46 0 setcharwidth .001 dup scale usharp ufill}bind put
+		CharStrings/flat{pop .46 0 setcharwidth .001 dup scale uflat ufill}bind put
+		CharStrings/natural{pop .40 0 setcharwidth .001 dup scale unat ufill}bind put
+		CharStrings/double_sharp{pop .46 0 setcharwidth .001 dup scale udblesharp ufill}bind put
+		CharStrings/double_flat{pop .50 0 setcharwidth .001 dup scale udbleflat ufill}bind put
+	    }{
+		CharStrings/sharp{pop 460 0 setcharwidth usharp ufill}bind put
+		CharStrings/flat{pop 460 0 setcharwidth uflat ufill}bind put
+		CharStrings/natural{pop 400 0 setcharwidth unat ufill}bind put
+		CharStrings/double_sharp{pop 460 0 setcharwidth udblesharp ufill}bind put
+		CharStrings/double_flat{pop 500 0 setcharwidth udbleflat ufill}bind put
+	    }ifelse
+	}if currentdict definefont pop end}!
+/Helvetica-utf8/Helvetica mkfont
+/F0{/Helvetica-utf8 exch selectfont}!
+/Times-Italic-utf8/Times-Italic mkfont
+/F1{/Times-Italic-utf8 exch selectfont}!
+/Times-Roman-utf8/Times-Roman mkfont
+/F2{/Times-Roman-utf8 exch selectfont}!
+/Times-Bold-utf8/Times-Bold mkfont
+/F3{/Times-Bold-utf8 exch selectfont}!
+/Bookman-DemiItalic-utf8/Bookman-DemiItalic mkfont
+/F4{/Bookman-DemiItalic-utf8 exch selectfont}!
+/setpagedevice where{pop
+	<</PageSize[612 846]>>setpagedevice}if
+%%EndSetup
+%%Page: 1 1
+gsave 0.75 dup scale 0 1080.0 T
+% --- width 681.6
+67.20 0 T
+0 -22.00 T
+0 -26.00 T
+% --- title Marche Pontificale
+340.8 4.0 M  20.0 F2 (Marche Pontificale)showc
+0 -6.00 T
+0 -14.00 T
+681.6 0 M  14.0 F1 (Charles Gounod)showr
+0 -6.00 T
+% --- font 20.0 F2 
+56.5 -17.0 M  15.0 F3 (Allegretto maestoso  )show
+gsave 0.70 dup scale 8 3 RM currentpoint hd 21 su grestore 13.3 0 RM
+(= )show
+(100)show
+/y1{-125.0 add}!
+/yns1{-125.0 add}!
+/y0{-60.0 add}!
+/yns0{-60.0 add}!
+-0.0 -75.4 M 
+-0.0 -93.4 M 
+89.0 0.0 -125.0 bar
+89.0 0.0 -36.0 brace
+24.0 183.3 -60.0 bar 
+65.0 183.3 -125.0 bar 
+24.0 318.0 -60.0 bar 
+65.0 318.0 -125.0 bar 
+24.0 510.6 -60.0 bar 
+65.0 510.6 -125.0 bar 
+24.0 681.6 -60.0 bar 
+65.0 681.6 -125.0 bar 
+dlw 681.6 0.0 -60.0 M 0 RL 681.6 0.0 -54.0 M 0 RL 681.6 0.0 -48.0 M 0 RL 681.6 0.0 -42.0 M 0 RL 681.6 0.0 -36.0 M 0 RL stroke
+dlw 681.6 0.0 -125.0 M 0 RL 681.6 0.0 -119.0 M 0 RL 681.6 0.0 -113.0 M 0 RL 681.6 0.0 -107.0 M 0 RL 681.6 0.0 -101.0 M 0 RL stroke
+12.0 -54.0  tclef
+27.0 -48.0 ft0 
+38.0 -48.0 csig
+61.5 -51.0 Hd 25.0 su 61.5 -45.0 Hd
+110.5 -54.0 hd 28.0 su 110.5 -45.0 hd
+3.2 26.1 -0.0 148.5 -25.0 bm
+3.2 8.0 -0.0 166.3 -30.0 bm
+145.4 -54.0 hd 7.7 3 dt 28.0 su 145.4 -45.0 hd 7.7 0 dt
+170.8 -54.0 hd 28.0 su 170.8 -45.0 hd
+196.3 -36.0 Hd -40.0 sd 196.3 -57.0 Hd 196.3 -45.0 Hd
+245.2 -57.0 hd 28.0 su 245.2 -48.0 hd
+3.2 26.1 -0.0 283.3 -28.0 bm
+3.2 8.0 -0.0 301.0 -33.0 bm
+280.1 -57.0 hd 7.7 0 dt 28.0 su 280.1 -48.0 hd 7.7 3 dt
+305.5 -57.0 hd 28.0 su 305.5 -48.0 hd
+330.5 -60.0 hd 1 31.0 sfu 330.5 -48.0 hd
+352.8 -48.0 r8 
+377.3 -57.0 hd 1 25.0 sfu 377.3 -51.0 hd
+399.6 -48.0 r8 
+424.2 -66.0 hl 424.2 -66.0 hd 1 31.0 sfu 424.2 -60.0 hd 424.2 -54.0 hd
+446.4 -48.0 r8 
+471.0 -66.0 hl 471.0 -66.0 hd 1 28.0 sfu 471.0 -57.0 hd
+493.3 -48.0 r8 
+523.1 -66.0 hl 523.1 -66.0 hd 7.7 3 dt 40.0 su 523.1 -60.0 hd 7.7 3 dt 523.1 -45.0 hd 7.7 0 dt
+582.3 -66.0 hl 582.3 -66.0 hd 1 37.0 sfu 582.3 -57.0 hd 582.3 -48.0 hd
+607.1 -66.0 hl 607.1 -66.0 hd 34.0 su 607.1 -57.0 hd 607.1 -51.0 hd
+642.0 -66.0 hl 642.0 -66.0 hd 1 34.0 sfu 642.0 -57.0 hd 642.0 -51.0 hd
+664.2 -48.0 r8 
+-5.23 -6.77 -22.66 -6.77 -27.89 0.23 0 -0.23 4.39 -5.00 23.50 -5.00 27.89 0.00 114.0 -54.0 SL
+-5.23 6.77 -22.66 6.77 -27.89 -0.23 0 0.23 4.39 5.00 23.50 5.00 27.89 0.00 114.0 -45.0 SL
+-5.23 -6.77 -22.66 -6.77 -27.89 0.23 0 -0.23 4.39 -5.00 23.50 -5.00 27.89 0.00 248.7 -57.0 SL
+-5.23 6.77 -22.66 6.77 -27.89 -0.23 0 0.23 4.39 5.00 23.50 5.00 27.89 0.00 248.7 -48.0 SL
+-5.23 -6.77 -22.66 -6.77 -27.89 0.23 0 -0.23 4.39 -5.00 23.50 -5.00 27.89 0.00 610.6 -66.0 SL
+-5.23 -6.77 -22.66 -6.77 -27.89 0.23 0 -0.23 4.39 -5.00 23.50 -5.00 27.89 0.00 610.6 -57.0 SL
+-5.23 6.77 -22.66 6.77 -27.89 -0.23 0 0.23 4.39 5.00 23.50 5.00 27.89 0.00 610.6 -51.0 SL
+12.0 -107.0  bclef
+27.0 -119.0 ft0 
+38.0 -113.0 csig
+61.5 -95.0 hl 61.5 -89.0 hl 61.5 -86.0 Hd -27.0 sd
+110.5 -95.0 hl 110.5 -89.0 hl 110.5 -89.0 hd -24.0 sd
+-3.2 26.1 -0.0 141.5 -113.2 bm
+-3.2 8.0 -0.0 159.3 -108.2 bm
+145.4 -95.0 hl 145.4 -89.0 hl 145.4 -89.0 hd 7.7 3 dt -23.2 sd
+170.8 -95.0 hl 170.8 -89.0 hl 170.8 -89.0 hd -23.2 sd
+196.3 -95.0 hl 196.3 -92.0 Hd -21.0 sd
+245.2 -95.0 hl 245.2 -92.0 hd -21.0 sd
+-3.2 26.1 -0.0 276.3 -114.9 bm
+-3.2 8.0 -0.0 294.0 -109.9 bm
+280.1 -95.0 hl 280.1 -92.0 hd 7.7 0 dt -21.9 sd
+305.5 -95.0 hl 305.5 -92.0 hd -21.9 sd
+330.5 -95.0 hl 330.5 -95.0 hd 1 -21.0 sfd
+352.8 -113.0 r8 
+377.3 -95.0 hl 377.3 -95.0 hd 1 -21.0 sfd
+399.6 -113.0 r8 
+424.2 -98.0 hd 1 -21.0 sfd
+446.4 -113.0 r8 
+471.0 -101.0 hd 1 -21.0 sfd
+493.3 -113.0 r8 
+523.1 -104.0 hd -21.0 sd
+557.8 -116.0 hd 21.0 su
+607.1 -107.0 hd -21.0 sd
+642.0 -107.0 hd 1 -21.0 sfd
+664.2 -113.0 r8 
+-5.23 6.77 -22.66 6.77 -27.89 -0.23 0 0.23 4.39 5.00 23.50 5.00 27.89 0.00 114.0 -89.0 SL
+-5.23 6.77 -22.66 6.77 -27.89 -0.23 0 0.23 4.39 5.00 23.50 5.00 27.89 0.00 248.7 -92.0 SL
+-5.23 6.77 -22.66 6.77 -27.89 -0.23 0 0.23 4.39 5.00 23.50 5.00 27.89 0.00 610.6 -107.0 SL
+(f)60.5 -76.4 pf
+(f)60.5 -141.4 pf
+0 -148.00 T
+/y1{-107.0 add}!
+/yns1{-107.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -59.9 M 
+-0.0 -77.9 M 
+84.0 0.0 -107.0 bar
+84.0 0.0 -23.0 brace
+24.0 168.0 -47.0 bar 
+60.0 168.0 -107.0 bar 
+24.0 315.7 -47.0 bar 
+60.0 315.7 -107.0 bar 
+24.0 509.8 -47.0 bar 
+60.0 509.8 -107.0 bar 
+24.0 681.6 -47.0 bar 
+60.0 681.6 -107.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -107.0 M 0 RL 681.6 0.0 -101.0 M 0 RL 681.6 0.0 -95.0 M 0 RL 681.6 0.0 -89.0 M 0 RL 681.6 0.0 -83.0 M 0 RL stroke
+-8.42 -4.48 -37.08 2.14 -45.50 9.85 0 -0.25 7.05 -5.70 38.44 -12.33 45.50 -9.60 181.0 13.0 y0 SL
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.5 -44.0 Hd 25.0 su 45.5 -38.0 Hd
+94.8 -47.0 hd 28.0 su 94.8 -38.0 hd
+3.2 26.3 -0.0 133.1 -16.8 bm
+3.2 8.0 -0.0 151.0 -21.8 bm
+129.9 -47.0 hd 7.7 3 dt 29.2 su 129.9 -38.0 hd 7.7 0 dt
+155.5 -44.0 hd 26.2 su 155.5 -38.0 hd
+181.0 -50.0 Hd 40.0 su 181.0 -38.0 Hd 181.0 -29.0 Hd
+230.5 -50.0 hd 1 28.0 sfu 230.5 -41.0 hd
+252.9 -35.0 r8 
+3.2 26.3 -0.0 280.8 -16.8 bm
+3.2 8.0 -0.0 298.7 -21.8 bm
+277.6 -44.0 hd 7.7 0 dt 26.2 su 277.6 -38.0 hd 7.7 0 dt
+303.2 -44.0 hd 26.2 su 303.2 -38.0 hd
+328.3 -47.0 hd 1 31.0 sfu 328.3 -35.0 hd
+350.7 -35.0 r8 
+375.4 -44.0 hd 1 25.0 sfu 375.4 -38.0 hd
+397.8 -35.0 r8 
+422.6 -53.0 hl 422.6 -53.0 hd 1 31.0 sfu 422.6 -41.0 hd
+445.0 -35.0 r8 
+469.9 -50.0 hd 1 25.0 sfu 469.9 -44.0 hd
+492.4 -35.0 r8 
+528.3 -50.0 hd 40.0 su 528.3 -44.0 hd 528.3 -29.0 hd
+3.2 26.2 -2.5 566.6 -9.3 bm
+3.2 8.0 -0.8 584.5 -16.0 bm
+563.5 -50.0 hd 7.7 0 dt 39.7 su 563.5 -44.0 hd 7.7 0 dt 563.5 -29.0 hd 7.7 3 dt
+589.0 -47.0 hd 34.3 su 589.0 -32.0 hd
+606.6 -47.0 hd 34.0 su 606.6 -32.0 hd
+641.7 -47.0 hd 1 34.0 sfu 641.7 -32.0 hd
+664.1 -35.0 r8 
+-5.27 -6.78 -22.85 -6.78 -28.12 0.23 0 -0.23 4.43 -5.01 23.69 -5.01 28.12 0.00 98.3 -47.0 SL
+-5.27 6.78 -22.85 6.78 -28.12 -0.23 0 0.23 4.43 5.01 23.69 5.01 28.12 0.00 98.3 -38.0 SL
+-7.92 -7.02 -34.58 -7.02 -42.50 0.24 0 -0.24 6.65 -5.26 35.85 -5.26 42.50 0.00 184.5 -50.0 SL
+-5.27 -6.78 -22.85 -6.78 -28.12 0.23 0 -0.23 4.43 -5.01 23.69 -5.01 28.12 0.00 531.8 -50.0 SL
+-5.27 -6.78 -22.85 -6.78 -28.12 0.23 0 -0.23 4.43 -5.01 23.69 -5.01 28.12 0.00 531.8 -44.0 SL
+-5.27 6.78 -22.85 6.78 -28.12 -0.23 0 0.23 4.43 5.01 23.69 5.01 28.12 0.00 531.8 -29.0 SL
+-5.27 -6.78 -22.85 -6.78 -28.12 0.23 0 -0.23 4.43 -5.01 23.69 -5.01 28.12 0.00 610.1 -47.0 SL
+-5.27 6.78 -22.85 6.78 -28.12 -0.23 0 0.23 4.43 5.01 23.69 5.01 28.12 0.00 610.1 -32.0 SL
+12.0 -89.0  bclef
+27.0 -101.0 ft0 
+45.5 -77.0 hl 45.5 -74.0 Hd -21.0 sd
+94.8 -77.0 hl 94.8 -77.0 hd -21.0 sd
+-3.2 26.3 -0.0 126.1 -101.2 bm
+-3.2 8.0 -0.0 144.0 -96.2 bm
+129.9 -77.0 hl 129.9 -77.0 hd 7.7 3 dt -23.2 sd
+155.5 -77.0 hl 155.5 -77.0 hd -23.2 sd
+181.0 -80.0 Hd -21.0 sd
+230.5 -80.0 hd 1 -21.0 sfd
+252.9 -95.0 r8 
+-3.2 26.3 -0.0 273.8 -102.9 bm
+-3.2 8.0 -0.0 291.7 -97.9 bm
+277.6 -77.0 hl 277.6 -77.0 hd 7.7 3 dt -24.9 sd 277.6 -83.0 hd 7.7 3 dt
+303.2 -77.0 hl 303.2 -77.0 hd -24.9 sd 303.2 -83.0 hd
+328.3 -77.0 hl 328.3 -77.0 hd 1 -28.0 sfd 328.3 -86.0 hd
+350.7 -95.0 r8 
+375.4 -77.0 hl 375.4 -77.0 hd 1 -31.0 sfd 375.4 -89.0 hd
+397.8 -95.0 r8 
+422.6 -86.0 hd 1 -25.0 sfd 422.6 -92.0 hd
+445.0 -95.0 r8 
+469.9 -80.0 hd 460.9 y nt0  1 -25.0 sfd 469.9 -86.0 hd
+492.4 -95.0 r8 
+528.3 -80.0 hd 519.3 y nt0  -25.0 sd 528.3 -86.0 hd
+-3.2 26.2 -6.4 559.6 -109.9 bm
+-3.2 8.0 -1.9 577.5 -109.3 bm
+563.5 -80.0 hd 7.7 0 dt -29.0 sd 563.5 -86.0 hd 7.7 0 dt
+589.0 -77.0 hl 589.0 -77.0 hd -38.2 sd 589.0 -98.0 hd 589.0 -86.0 hd
+606.6 -77.0 hl 606.6 -77.0 hd -40.0 sd 606.6 -98.0 hd 606.6 -86.0 hd
+641.7 -77.0 hl 641.7 -77.0 hd 1 -40.0 sfd 641.7 -98.0 hd 641.7 -86.0 hd
+664.1 -95.0 r8 
+-5.27 6.78 -22.85 6.78 -28.12 -0.23 0 0.23 4.43 5.01 23.69 5.01 28.12 0.00 98.3 -77.0 SL
+-7.92 7.02 -34.58 7.02 -42.50 -0.24 0 0.24 6.65 5.26 35.85 5.26 42.50 0.00 184.5 -80.0 SL
+-5.27 -6.78 -22.85 -6.78 -28.12 0.23 0 -0.23 4.43 -5.01 23.69 -5.01 28.12 0.00 531.8 -86.0 SL
+-5.27 6.78 -22.85 6.78 -28.12 -0.23 0 0.23 4.43 5.01 23.69 5.01 28.12 0.00 531.8 -80.0 SL
+-5.27 -6.78 -22.85 -6.78 -28.12 0.23 0 -0.23 4.43 -5.01 23.69 -5.01 28.12 0.00 610.1 -98.0 SL
+-5.27 6.78 -22.85 6.78 -28.12 -0.23 0 0.23 4.43 5.01 23.69 5.01 28.12 0.00 610.1 -86.0 SL
+-5.27 6.78 -22.85 6.78 -28.12 -0.23 0 0.23 4.43 5.01 23.69 5.01 28.12 0.00 610.1 -77.0 SL
+(f)44.5 -64.4 pf
+(f)44.5 -123.4 pf
+0 -130.00 T
+/y1{-105.0 add}!
+/yns1{-105.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -58.9 M 
+-0.0 -76.9 M 
+82.0 0.0 -105.0 bar
+82.0 0.0 -23.0 brace
+24.0 170.9 -47.0 bar 
+58.0 170.9 -105.0 bar 
+24.0 309.3 -47.0 bar 
+58.0 309.3 -105.0 bar 
+24.0 505.4 -47.0 bar 
+58.0 505.4 -105.0 bar 
+24.0 681.6 -47.0 bar 
+58.0 681.6 -105.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -105.0 M 0 RL 681.6 0.0 -99.0 M 0 RL 681.6 0.0 -93.0 M 0 RL 681.6 0.0 -87.0 M 0 RL 681.6 0.0 -81.0 M 0 RL stroke
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.5 -38.0 Hd 25.0 su 45.5 -32.0 Hd
+96.2 -41.0 hd 28.0 su 96.2 -32.0 hd
+3.2 26.8 -0.0 135.3 -12.0 bm
+3.2 8.0 -0.0 153.7 -17.0 bm
+132.1 -41.0 hd 7.7 3 dt 28.0 su 132.1 -32.0 hd 7.7 0 dt
+158.2 -41.0 hd 28.0 su 158.2 -32.0 hd
+183.9 -23.0 Hd -40.0 sd 183.9 -44.0 Hd 183.9 -32.0 Hd
+234.6 -44.0 hd 28.0 su 234.6 -35.0 hd
+3.2 26.8 -0.0 273.7 -15.0 bm
+3.2 8.0 -0.0 292.1 -20.0 bm
+270.5 -44.0 hd 7.7 0 dt 28.0 su 270.5 -35.0 hd 7.7 3 dt
+296.6 -44.0 hd 28.0 su 296.6 -35.0 hd
+322.1 -47.0 hd 1 31.0 sfu 322.1 -35.0 hd
+345.0 -35.0 r8 
+370.4 -44.0 hd 1 25.0 sfu 370.4 -38.0 hd
+393.3 -35.0 r8 
+418.8 -53.0 hl 418.8 -53.0 hd 1 31.0 sfu 418.8 -47.0 hd 418.8 -41.0 hd
+441.7 -35.0 r8 
+464.6 -53.0 hl 464.6 -53.0 hd 1 28.0 sfu 464.6 -44.0 hd
+487.5 -35.0 r8 
+518.2 -53.0 hl 518.2 -53.0 hd 7.7 3 dt 40.0 su 518.2 -47.0 hd 7.7 3 dt 518.2 -32.0 hd 7.7 0 dt
+579.4 -53.0 hl 579.4 -53.0 hd 1 37.0 sfu 579.4 -44.0 hd 579.4 -35.0 hd
+604.9 -53.0 hl 604.9 -53.0 hd 34.0 su 604.9 -44.0 hd 604.9 -38.0 hd
+640.8 -53.0 hl 640.8 -53.0 hd 1 34.0 sfu 640.8 -44.0 hd 640.8 -38.0 hd
+663.7 -35.0 r8 
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 99.7 -41.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 99.7 -32.0 SL
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 238.1 -44.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 238.1 -35.0 SL
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 608.4 -53.0 SL
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 608.4 -44.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 608.4 -38.0 SL
+12.0 -87.0  bclef
+27.0 -99.0 ft0 
+45.5 -75.0 hl 45.5 -75.0 Hd -31.0 sd 45.5 -87.0 Hd 45.5 -81.0 Hd
+96.2 -75.0 hl 96.2 -75.0 hd -34.0 sd 96.2 -90.0 hd 96.2 -84.0 hd
+-3.2 26.8 -0.0 128.3 -111.2 bm
+-3.2 8.0 -0.0 146.7 -106.2 bm
+132.1 -75.0 hl 132.1 -75.0 hd 7.7 3 dt -35.2 sd 132.1 -90.0 hd 7.7 0 dt 132.1 -84.0 hd 7.7 0 dt
+158.2 -75.0 hl 158.2 -75.0 hd -35.2 sd 158.2 -90.0 hd 158.2 -84.0 hd
+183.9 -75.0 hl 183.9 -75.0 Hd -37.0 sd 183.9 -93.0 Hd 183.9 -87.0 Hd
+234.6 -78.0 hd -34.0 sd 234.6 -93.0 hd 234.6 -87.0 hd
+-3.2 26.8 -0.0 266.7 -112.9 bm
+-3.2 8.0 -0.0 285.1 -107.9 bm
+270.5 -78.0 hd 7.7 0 dt -33.9 sd 270.5 -93.0 hd 7.7 3 dt 270.5 -87.0 hd 7.7 3 dt
+296.6 -78.0 hd -33.9 sd 296.6 -93.0 hd 296.6 -87.0 hd
+322.1 -78.0 hd 1 -37.0 sfd 322.1 -96.0 hd 322.1 -84.0 hd
+345.0 -93.0 r8 
+370.4 -81.0 hd 1 -34.0 sfd 370.4 -96.0 hd 370.4 -87.0 hd
+393.3 -93.0 r8 
+418.8 -84.0 hd 1 -34.0 sfd 411.8 -99.0 hd 418.8 -96.0 hd
+441.7 -93.0 r8 
+464.6 -102.0 hd 1 34.0 sfu 464.6 -96.0 hd 464.6 -87.0 hd
+487.5 -93.0 r8 
+518.2 -105.0 hd 40.0 su 518.2 -96.0 hd 518.2 -84.0 hd
+554.0 -111.0 hl 554.0 -117.0 hl 554.0 -117.0 hd 40.0 su 554.0 -96.0 hd
+604.9 -108.0 hd 40.0 su 604.9 -96.0 hd 604.9 -87.0 hd
+640.8 -108.0 hd 1 40.0 sfu 640.8 -96.0 hd 640.8 -87.0 hd
+663.7 -93.0 r8 
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 99.7 -90.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 99.7 -84.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 99.7 -75.0 SL
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 238.1 -93.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 238.1 -87.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 238.1 -78.0 SL
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 608.4 -108.0 SL
+-5.43 -6.79 -23.53 -6.79 -28.96 0.23 0 -0.23 4.56 -5.02 24.40 -5.02 28.96 0.00 608.4 -96.0 SL
+-5.43 6.79 -23.53 6.79 -28.96 -0.23 0 0.23 4.56 5.02 24.40 5.02 28.96 0.00 608.4 -87.0 SL
+0 -128.00 T
+/y1{-106.0 add}!
+/yns1{-106.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -59.4 M 
+-0.0 -77.4 M 
+83.0 0.0 -106.0 bar
+83.0 0.0 -23.0 brace
+24.0 169.4 -47.0 bar 
+59.0 169.4 -106.0 bar 
+24.0 318.8 -47.0 bar 
+59.0 318.8 -106.0 bar 
+24.0 507.9 -47.0 bar 
+59.0 507.9 -106.0 bar 
+24.0 681.6 -47.0 bar 
+59.0 681.6 -106.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -106.0 M 0 RL 681.6 0.0 -100.0 M 0 RL 681.6 0.0 -94.0 M 0 RL 681.6 0.0 -88.0 M 0 RL 681.6 0.0 -82.0 M 0 RL stroke
+-8.53 -4.49 -37.63 2.14 -46.15 9.85 0 -0.25 7.14 -5.71 39.01 -12.34 46.15 -9.60 182.4 13.0 y0 SL
+-8.93 6.33 -39.72 7.79 -48.65 1.85 0 0.25 7.47 3.93 41.18 2.48 48.65 -2.10 183.9 28.1 y1 SL
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.5 -44.0 Hd 25.0 su 45.5 -38.0 Hd
+95.4 -47.0 hd 28.0 su 95.4 -38.0 hd
+3.2 26.5 -0.0 134.1 -16.8 bm
+3.2 8.0 -0.0 152.3 -21.8 bm
+131.0 -47.0 hd 7.7 3 dt 29.2 su 131.0 -38.0 hd 7.7 0 dt
+156.8 -44.0 hd 26.2 su 156.8 -38.0 hd
+182.4 -50.0 Hd 40.0 su 182.4 -38.0 Hd 182.4 -29.0 Hd
+232.6 -50.0 hd 1 28.0 sfu 232.6 -41.0 hd
+255.3 -35.0 r8 
+3.2 26.6 -0.0 283.5 -16.8 bm
+3.2 8.0 -0.0 301.7 -21.8 bm
+280.3 -53.0 hl 280.3 -53.0 hd 7.7 3 dt 35.2 su 280.3 -44.0 hd 7.7 0 dt 280.3 -38.0 hd 7.7 0 dt
+306.2 -53.0 hl 306.2 -53.0 hd 35.2 su 306.2 -44.0 hd 306.2 -38.0 hd
+331.5 -53.0 hl 331.5 -53.0 hd 1 37.0 sfu 331.5 -47.0 hd 331.5 -35.0 hd
+354.2 -35.0 r8 
+376.8 -53.0 hl 376.8 -53.0 hd 1 34.0 sfu 376.8 -44.0 hd 376.8 -38.0 hd
+399.5 -35.0 r8 
+422.1 -53.0 hl 422.1 -59.0 hl 422.1 -62.0 hd 1 40.0 sfu 422.1 -53.0 hd 422.1 -41.0 hd
+444.8 -35.0 r8 
+467.5 -53.0 hl 467.5 -59.0 hl 467.5 -62.0 hd 1 37.0 sfu 467.5 -56.0 hd 458.5 y nt0  467.5 -44.0 hd
+490.2 -35.0 r8 
+526.4 -50.0 hd 40.0 su 526.4 -44.0 hd 526.4 -35.0 hd 517.4 y nt0  526.4 -29.0 hd
+3.2 26.5 -2.5 565.2 -9.3 bm
+3.2 8.0 -0.8 583.3 -16.0 bm
+562.0 -50.0 hd 7.7 0 dt 39.7 su 562.0 -44.0 hd 7.7 0 dt 562.0 -35.0 hd 7.7 3 dt 562.0 -29.0 hd 7.7 3 dt
+587.8 -53.0 hl 587.8 -53.0 hd 40.3 su 587.8 -47.0 hd 587.8 -32.0 hd
+605.7 -53.0 hl 605.7 -53.0 hd 40.0 su 605.7 -47.0 hd 605.7 -32.0 hd
+641.2 -53.0 hl 641.2 -53.0 hd 1 40.0 sfu 641.2 -47.0 hd 641.2 -32.0 hd
+663.9 -35.0 r8 
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 98.9 -47.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 98.9 -38.0 SL
+-8.03 -7.03 -35.12 -7.03 -43.15 0.24 0 -0.24 6.74 -5.28 36.42 -5.28 43.15 0.00 185.9 -50.0 SL
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 529.9 -50.0 SL
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 529.9 -44.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 529.9 -35.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 529.9 -29.0 SL
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 609.2 -53.0 SL
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 609.2 -47.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 609.2 -32.0 SL
+12.0 -88.0  bclef
+27.0 -100.0 ft0 
+45.5 -82.0 Hd -31.0 sd 45.5 -94.0 Hd 45.5 -88.0 Hd
+95.4 -82.0 hd -34.0 sd 95.4 -97.0 hd 95.4 -91.0 hd
+-3.2 26.5 -0.0 127.1 -118.0 bm
+-3.2 8.0 -0.0 145.3 -113.0 bm
+131.0 -82.0 hd 7.7 3 dt -35.0 sd 131.0 -97.0 hd 7.7 0 dt 131.0 -91.0 hd 7.7 0 dt
+156.8 -82.0 hd -35.0 sd 156.8 -97.0 hd 156.8 -91.0 hd
+182.4 -82.0 Hd -37.0 sd 182.4 -100.0 Hd 182.4 -94.0 Hd
+232.6 -85.0 hd 1 -34.0 sfd 232.6 -100.0 hd 232.6 -94.0 hd
+255.3 -94.0 r8 
+-3.2 26.6 -0.0 276.5 -124.0 bm
+-3.2 8.0 -0.0 294.7 -119.0 bm
+280.3 -82.0 hd 7.7 3 dt -41.0 sd 280.3 -103.0 hd 7.7 0 dt 280.3 -97.0 hd 7.7 0 dt
+306.2 -82.0 hd -41.0 sd 306.2 -103.0 hd 306.2 -97.0 hd
+331.5 -106.0 hd 1 40.0 sfu 331.5 -97.0 hd 331.5 -85.0 hd
+354.2 -94.0 r8 
+376.8 -109.0 hd 1 40.0 sfu 376.8 -97.0 hd 376.8 -88.0 hd
+399.5 -94.0 r8 
+422.1 -112.0 hl 422.1 -112.0 hd 1 40.0 sfu 422.1 -97.0 hd 422.1 -91.0 hd
+444.8 -94.0 r8 
+467.5 -106.0 hd 1 31.0 sfu 467.5 -94.0 hd
+490.2 -94.0 r8 
+526.4 -106.0 hd 40.0 su 526.4 -85.0 hd
+3.2 26.5 -6.4 565.2 -67.7 bm
+3.2 8.0 -1.9 583.3 -77.1 bm
+562.0 -106.0 hd 7.7 3 dt 37.2 su 562.0 -85.0 hd 7.7 0 dt
+587.8 -112.0 hl 587.8 -118.0 hl 587.8 -118.0 hd 43.0 su 587.8 -97.0 hd
+605.7 -112.0 hl 605.7 -118.0 hl 605.7 -118.0 hd 40.0 su 605.7 -97.0 hd
+641.2 -112.0 hl 641.2 -118.0 hl 641.2 -118.0 hd 1 40.0 sfu 641.2 -97.0 hd
+663.9 -94.0 r8 
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 98.9 -97.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 98.9 -91.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 98.9 -82.0 SL
+-8.03 -7.03 -35.12 -7.03 -43.15 0.24 0 -0.24 6.74 -5.28 36.42 -5.28 43.15 0.00 185.9 -100.0 SL
+-8.03 7.03 -35.12 7.03 -43.15 -0.24 0 0.24 6.74 5.28 36.42 5.28 43.15 0.00 185.9 -94.0 SL
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 529.9 -106.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 529.9 -85.0 SL
+-5.36 -6.79 -23.21 -6.79 -28.57 0.23 0 -0.23 4.50 -5.01 24.07 -5.01 28.57 0.00 609.2 -118.0 SL
+-5.36 6.79 -23.21 6.79 -28.57 -0.23 0 0.23 4.50 5.01 24.07 5.01 28.57 0.00 609.2 -97.0 SL
+0 -129.00 T
+/y1{-120.0 add}!
+/yns1{-120.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -66.4 M 
+-0.0 -84.4 M 
+97.0 0.0 -120.0 bar
+97.0 0.0 -23.0 brace
+51.5 -47.0 rdots 24.0 47.5 -47.0 bar 24.0 41.5 -47.0 thbar 
+51.5 -120.0 rdots 73.0 47.5 -120.0 bar 73.0 41.5 -120.0 thbar 
+24.0 257.5 -47.0 bar 
+73.0 257.5 -120.0 bar 
+24.0 462.6 -47.0 bar 
+73.0 462.6 -120.0 bar 
+24.0 681.6 -47.0 bar 
+73.0 681.6 -120.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -120.0 M 0 RL 681.6 0.0 -114.0 M 0 RL 681.6 0.0 -108.0 M 0 RL 681.6 0.0 -102.0 M 0 RL 681.6 0.0 -96.0 M 0 RL stroke
+12.0 F0 469.0 -27.6 yns0 M  10.0 F4 (cresc.)anshow
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+66.9 -53.0 hl 66.9 -59.0 hl 66.9 -59.0 Hd 34.0 su 66.9 -53.0 Hd 66.9 -44.0 Hd
+159.5 -53.0 hl 159.5 -59.0 hl 159.5 -59.0 hd 1 34.0 sfu 159.5 -53.0 hd 159.5 -44.0 hd
+185.5 -35.0 r8 
+3.2 26.6 4.2 214.6 -27.1 bm
+211.4 -53.0 hl 211.4 -59.0 hl 211.4 -59.0 hd 30.9 su 211.4 -53.0 hd 211.4 -47.0 hd
+237.3 -53.0 hl 237.3 -59.0 hl 237.3 -59.0 hd 35.1 su 237.3 -53.0 hd 237.3 -41.0 hd
+271.9 -53.0 hl 271.9 -59.0 hl 271.9 -59.0 Hd 34.0 su 271.9 -53.0 Hd 271.9 -44.0 Hd
+364.6 -53.0 hl 364.6 -59.0 hl 364.6 -59.0 hd 1 34.0 sfu 364.6 -53.0 hd 364.6 -44.0 hd
+390.5 -35.0 r8 
+3.2 26.6 2.5 419.6 -24.8 bm
+416.4 -53.0 hl 416.4 -59.0 hl 416.4 -59.0 hd 33.3 su 416.4 -53.0 hd 416.4 -44.0 hd
+442.4 -53.0 hl 442.4 -59.0 hl 442.4 -59.0 hd 35.7 su 442.4 -53.0 hd 442.4 -41.0 hd
+477.0 -53.0 hl 477.0 -59.0 hl 477.0 -59.0 hd 1 40.0 sfu 477.0 -53.0 hd 477.0 -38.0 hd
+502.9 -35.0 r8 
+3.2 26.6 2.5 532.0 -18.8 bm
+528.8 -53.0 hl 528.8 -53.0 hd 33.3 su 528.8 -44.0 hd 528.8 -38.0 hd
+554.8 -53.0 hl 554.8 -53.0 hd 35.7 su 554.8 -44.0 hd 554.8 -35.0 hd
+583.6 -53.0 hl 583.6 -53.0 hd 1 40.0 sfu 583.6 -44.0 hd 583.6 -38.0 hd 583.6 -32.0 hd
+609.5 -35.0 r8 
+635.5 -44.0 hd 1 34.0 sfu 635.5 -38.0 hd 635.5 -29.0 hd
+661.4 -35.0 r8 
+-14.30 -7.76 -71.32 -7.76 -85.62 0.29 0 -0.29 11.73 -6.04 73.89 -6.04 85.62 0.00 70.4 -59.0 SL
+-14.30 -7.76 -71.32 -7.76 -85.62 0.29 0 -0.29 11.73 -6.04 73.89 -6.04 85.62 0.00 70.4 -53.0 SL
+-14.30 7.76 -71.32 7.76 -85.62 -0.29 0 0.29 11.73 6.04 73.89 6.04 85.62 0.00 70.4 -44.0 SL
+-14.30 -7.76 -71.32 -7.76 -85.62 0.29 0 -0.29 11.73 -6.04 73.89 -6.04 85.62 0.00 275.4 -59.0 SL
+-14.30 -7.76 -71.32 -7.76 -85.62 0.29 0 -0.29 11.73 -6.04 73.89 -6.04 85.62 0.00 275.4 -53.0 SL
+-14.30 7.76 -71.32 7.76 -85.62 -0.29 0 0.29 11.73 6.04 73.89 6.04 85.62 0.00 275.4 -44.0 SL
+12.0 -102.0  bclef
+27.0 -114.0 ft0 
+66.9 -108.0 r4 
+107.6 -123.0 hd 1 40.0 sfu 107.6 -102.0 hd
+133.6 -108.0 r8 
+159.5 -126.0 hl 159.5 -132.0 hl 159.5 -132.0 hd 40.0 su 159.5 -111.0 hd
+211.4 -126.0 hl 211.4 -132.0 hl 211.4 -132.0 hd 1 40.0 sfu 211.4 -111.0 hd
+237.3 -108.0 r8 
+271.9 -108.0 r4 
+312.7 -123.0 hd 1 40.0 sfu 312.7 -102.0 hd
+338.6 -108.0 r8 
+364.6 -126.0 hl 364.6 -132.0 hl 364.6 -132.0 hd 40.0 su 364.6 -111.0 hd
+416.4 -126.0 hl 416.4 -132.0 hl 416.4 -132.0 hd 1 40.0 sfu 416.4 -111.0 hd
+442.4 -108.0 r8 
+477.0 -108.0 r4 
+528.8 -123.0 hd 1 40.0 sfu 528.8 -102.0 hd
+554.8 -108.0 r8 
+583.6 -126.0 hl 583.6 -132.0 hl 583.6 -132.0 hd 40.0 su 583.6 -111.0 hd
+635.5 -126.0 hl 635.5 -132.0 hl 635.5 -132.0 hd 1 40.0 sfu 635.5 -111.0 hd
+661.4 -108.0 r8 
+-8.32 -7.06 -36.56 -7.06 -44.88 0.24 0 -0.24 6.97 -5.31 37.91 -5.31 44.88 0.00 163.0 -132.0 SL
+-8.32 7.06 -36.56 7.06 -44.88 -0.24 0 0.24 6.97 5.31 37.91 5.31 44.88 0.00 163.0 -111.0 SL
+-8.32 -7.06 -36.56 -7.06 -44.88 0.24 0 -0.24 6.97 -5.31 37.91 -5.31 44.88 0.00 368.1 -132.0 SL
+-8.32 7.06 -36.56 7.06 -44.88 -0.24 0 0.24 6.97 5.31 37.91 5.31 44.88 0.00 368.1 -111.0 SL
+-8.32 -7.06 -36.56 -7.06 -44.88 0.24 0 -0.24 6.97 -5.31 37.91 -5.31 44.88 0.00 587.1 -132.0 SL
+-8.32 7.06 -36.56 7.06 -44.88 -0.24 0 0.24 6.97 5.31 37.91 5.31 44.88 0.00 587.1 -111.0 SL
+(p)64.9 -84.4 pf
+(p)64.9 -136.4 pf
+39.1 419.4 -88.0 cresc
+0 -143.00 T
+/y1{-120.0 add}!
+/yns1{-120.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -66.4 M 
+-0.0 -84.4 M 
+97.0 0.0 -120.0 bar
+97.0 0.0 -23.0 brace
+24.0 247.4 -47.0 bar 
+73.0 247.4 -120.0 bar 
+24.0 464.5 -47.0 bar 
+73.0 464.5 -120.0 bar 
+24.0 681.6 -47.0 bar 
+73.0 681.6 -120.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -120.0 M 0 RL 681.6 0.0 -114.0 M 0 RL 681.6 0.0 -108.0 M 0 RL 681.6 0.0 -102.0 M 0 RL 681.6 0.0 -96.0 M 0 RL stroke
+12.0 F0 163.1 -21.6 yns0 M  10.0 F4 (dim.)anshow
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.5 -53.0 hl 45.5 -56.0 Hd 34.0 su 53.3 -53.0 53.3 -53.0 hl Hd 45.5 -47.0 Hd 45.5 -41.0 Hd
+3.2 83.1 -0.0 146.7 -16.8 bm
+143.6 -53.0 hl 143.6 -56.0 hd 38.2 su 150.6 -53.0 150.6 -53.0 hl hd 143.6 -47.0 hd 143.6 -41.0 hd
+171.1 -53.0 hl 171.1 -53.0 hd 35.2 su 171.1 -47.0 hd 171.1 -35.0 hd
+198.5 -53.0 hl 198.5 -53.0 hd 35.2 su 198.5 -47.0 hd 198.5 -41.0 hd
+226.0 -53.0 hl 226.0 -53.0 hd 35.2 su 226.0 -47.0 hd 226.0 -38.0 hd
+262.6 -53.0 hl 262.6 -59.0 hl 262.6 -59.0 Hd 34.0 su 262.6 -53.0 Hd 262.6 -44.0 Hd
+360.7 -53.0 hl 360.7 -59.0 hl 360.7 -59.0 hd 1 34.0 sfu 360.7 -53.0 hd 360.7 -44.0 hd
+388.2 -35.0 r8 
+3.2 28.2 4.3 418.8 -27.1 bm
+415.6 -53.0 hl 415.6 -59.0 hl 415.6 -59.0 hd 30.9 su 415.6 -53.0 hd 415.6 -47.0 hd
+443.1 -53.0 hl 443.1 -59.0 hl 443.1 -59.0 hd 35.1 su 443.1 -53.0 hd 443.1 -41.0 hd
+479.7 -53.0 hl 479.7 -59.0 hl 479.7 -59.0 Hd 34.0 su 479.7 -53.0 Hd 479.7 -44.0 Hd
+577.8 -53.0 hl 577.8 -59.0 hl 577.8 -59.0 hd 1 34.0 sfu 577.8 -53.0 hd 577.8 -44.0 hd
+605.3 -35.0 r8 
+3.2 28.2 2.5 635.9 -24.8 bm
+632.8 -53.0 hl 632.8 -59.0 hl 632.8 -59.0 hd 33.3 su 632.8 -53.0 hd 632.8 -44.0 hd
+660.2 -53.0 hl 660.2 -59.0 hl 660.2 -59.0 hd 35.7 su 660.2 -53.0 hd 660.2 -41.0 hd
+-14.98 -7.85 -76.10 -7.85 -91.08 0.29 0 -0.29 12.25 -6.14 78.83 -6.14 91.08 0.00 49.0 -56.0 SL
+-14.93 7.84 -75.69 7.84 -90.61 -0.29 0 0.29 12.21 6.13 78.41 6.13 90.61 0.00 53.7 -53.0 SL
+-14.98 7.85 -76.10 7.85 -91.08 -0.29 0 0.29 12.25 6.14 78.83 6.14 91.08 0.00 49.0 -47.0 SL
+-14.98 7.85 -76.10 7.85 -91.08 -0.29 0 0.29 12.25 6.14 78.83 6.14 91.08 0.00 49.0 -41.0 SL
+-14.98 -7.85 -76.10 -7.85 -91.08 0.29 0 -0.29 12.25 -6.14 78.83 -6.14 91.08 0.00 266.1 -59.0 SL
+-14.98 -7.85 -76.10 -7.85 -91.08 0.29 0 -0.29 12.25 -6.14 78.83 -6.14 91.08 0.00 266.1 -53.0 SL
+-14.98 7.85 -76.10 7.85 -91.08 -0.29 0 0.29 12.25 6.14 78.83 6.14 91.08 0.00 266.1 -44.0 SL
+-14.98 -7.85 -76.10 -7.85 -91.08 0.29 0 -0.29 12.25 -6.14 78.83 -6.14 91.08 0.00 483.2 -59.0 SL
+-14.98 -7.85 -76.10 -7.85 -91.08 0.29 0 -0.29 12.25 -6.14 78.83 -6.14 91.08 0.00 483.2 -53.0 SL
+-14.98 7.85 -76.10 7.85 -91.08 -0.29 0 0.29 12.25 6.14 78.83 6.14 91.08 0.00 483.2 -44.0 SL
+12.0 -102.0  bclef
+27.0 -114.0 ft0 
+45.5 -108.0 r4 
+88.6 -120.0 hd 1 40.0 sfu 88.6 -99.0 hd
+116.1 -108.0 r8 
+143.6 -126.0 hl 143.6 -132.0 hl 143.6 -132.0 hd 1 40.0 sfu 143.6 -111.0 hd
+171.1 -108.0 r8 
+-3.2 28.2 -0.0 194.7 -114.2 bm
+198.5 -93.0 hd -20.2 sd
+226.0 -93.0 hd -20.2 sd
+262.6 -108.0 r4 
+305.8 -123.0 hd 1 40.0 sfu 305.8 -102.0 hd
+333.2 -108.0 r8 
+360.7 -126.0 hl 360.7 -132.0 hl 360.7 -132.0 hd 40.0 su 360.7 -111.0 hd
+415.6 -126.0 hl 415.6 -132.0 hl 415.6 -132.0 hd 1 40.0 sfu 415.6 -111.0 hd
+443.1 -108.0 r8 
+479.7 -108.0 r4 
+522.9 -123.0 hd 1 40.0 sfu 522.9 -102.0 hd
+550.4 -108.0 r8 
+577.8 -126.0 hl 577.8 -132.0 hl 577.8 -132.0 hd 40.0 su 577.8 -111.0 hd
+632.8 -126.0 hl 632.8 -132.0 hl 632.8 -132.0 hd 1 40.0 sfu 632.8 -111.0 hd
+660.2 -108.0 r8 
+(p)260.6 -84.4 pf
+41.8 635.8 -88.0 cresc
+0 -143.00 T
+/y1{-113.0 add}!
+/yns1{-113.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -62.9 M 
+-0.0 -80.9 M 
+90.0 0.0 -113.0 bar
+90.0 0.0 -23.0 brace
+24.0 193.0 -47.0 bar 
+66.0 193.0 -113.0 bar 
+24.0 358.6 -47.0 thbar 24.0 355.6 -47.0 bar 351.6 -47.0 rdots 
+66.0 358.6 -113.0 thbar 66.0 355.6 -113.0 bar 351.6 -113.0 rdots 
+24.0 521.6 -47.0 bar 
+66.0 521.6 -113.0 bar 
+24.0 681.6 -47.0 bar 
+66.0 681.6 -113.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -113.0 M 0 RL 681.6 0.0 -107.0 M 0 RL 681.6 0.0 -101.0 M 0 RL 681.6 0.0 -95.0 M 0 RL 681.6 0.0 -89.0 M 0 RL stroke
+12.0 F0 75.4 -21.6 yns0 M  10.0 F4 (cresc.)anshow
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.0 -53.0 hl 45.0 -59.0 hl 45.0 -59.0 hd 1 40.0 sfu 45.0 -53.0 hd 45.0 -38.0 hd
+63.7 -35.0 r8 
+3.2 18.8 -0.0 86.6 -20.0 bm
+83.4 -53.0 hl 83.4 -53.0 hd 32.0 su 83.4 -44.0 hd 83.4 -38.0 hd
+101.6 -53.0 hl 101.6 -53.0 hd 32.0 su 101.6 -44.0 hd 101.6 -38.0 hd
+121.7 -23.0 hd 1 -40.0 sfd 121.7 -44.0 hd 121.7 -38.0 hd 121.7 -29.0 hd
+139.6 -35.0 r8 
+159.5 -26.0 hd 1 -37.0 sfd 159.5 -44.0 hd 159.5 -38.0 hd 159.5 -32.0 hd
+178.1 -35.0 r8 
+211.5 -44.0 hd 14.7 0 dt 34.0 su 218.5 -41.0 hd 7.7 3 dt 211.5 -35.0 hd 14.7 3 dt 202.5 y nt0  211.5 -29.0 hd 14.7 3 dt
+262.3 -44.0 hd 1 37.0 sfu 269.3 -41.0 hd 262.3 -35.0 hd 253.3 y nt0  262.3 -26.0 hd
+284.0 -47.0 hd 34.0 su 284.0 -41.0 hd 284.0 -32.0 hd
+322.4 -47.0 hd 1 34.0 sfu 322.4 -41.0 hd 322.4 -32.0 hd
+341.1 -35.0 r8 
+374.6 -53.0 hl 374.6 -56.0 Hd 34.0 su 374.6 -50.0 Hd 374.6 -41.0 Hd
+438.4 -53.0 hl 438.4 -56.0 hd 1 34.0 sfu 438.4 -50.0 hd 438.4 -41.0 hd
+457.1 -35.0 r8 
+3.2 22.2 2.4 479.7 -18.7 bm
+476.5 -53.0 hl 476.5 -53.0 hd 33.3 su 483.6 -50.0 hd 476.5 -44.0 hd 467.5 y sh0  476.5 -38.0 hd
+498.1 -53.0 hl 498.1 -53.0 hd 35.7 su 505.1 -50.0 hd 498.1 -44.0 hd 498.1 -35.0 hd
+534.6 -53.0 hl 534.6 -56.0 Hd 34.0 su 534.6 -50.0 Hd 534.6 -41.0 Hd
+598.4 -53.0 hl 598.4 -56.0 hd 1 34.0 sfu 598.4 -50.0 hd 598.4 -41.0 hd
+617.1 -35.0 r8 
+3.2 22.2 2.4 639.7 -18.7 bm
+636.6 -53.0 hl 636.6 -53.0 hd 33.3 su 643.6 -50.0 hd 636.6 -44.0 hd 627.6 y sh0  636.6 -38.0 hd
+658.1 -53.0 hl 658.1 -53.0 hd 35.7 su 665.1 -50.0 hd 658.1 -44.0 hd 658.1 -35.0 hd
+-5.89 -6.83 -25.52 -6.83 -31.41 0.23 0 -0.23 4.95 -5.07 26.46 -5.07 31.41 0.00 287.5 -47.0 SL
+-5.89 -6.83 -25.52 -6.83 -31.41 0.23 0 -0.23 4.95 -5.07 26.46 -5.07 31.41 0.00 287.5 -41.0 SL
+-5.89 6.83 -25.52 6.83 -31.41 -0.23 0 0.23 4.95 5.07 26.46 5.07 31.41 0.00 287.5 -32.0 SL
+-10.23 -7.27 -46.61 -7.27 -56.83 0.26 0 -0.26 8.52 -5.52 48.31 -5.52 56.83 0.00 378.1 -56.0 SL
+-10.23 -7.27 -46.61 -7.27 -56.83 0.26 0 -0.26 8.52 -5.52 48.31 -5.52 56.83 0.00 378.1 -50.0 SL
+-10.23 7.27 -46.61 7.27 -56.83 -0.26 0 0.26 8.52 5.52 48.31 5.52 56.83 0.00 378.1 -41.0 SL
+-10.23 -7.27 -46.61 -7.27 -56.83 0.26 0 -0.26 8.52 -5.52 48.31 -5.52 56.83 0.00 538.1 -56.0 SL
+-10.23 -7.27 -46.61 -7.27 -56.83 0.26 0 -0.26 8.52 -5.52 48.31 -5.52 56.83 0.00 538.1 -50.0 SL
+-10.23 7.27 -46.61 7.27 -56.83 -0.26 0 0.26 8.52 5.52 48.31 5.52 56.83 0.00 538.1 -41.0 SL
+12.0 -95.0  bclef
+27.0 -107.0 ft0 
+45.0 -101.0 r4 
+83.4 -89.0 hd 1 -40.0 sfd 83.4 -110.0 hd
+101.6 -101.0 r8 
+121.7 -119.0 hl 121.7 -122.0 hd 40.0 su 121.7 -101.0 hd
+159.5 -119.0 hl 159.5 -122.0 hd 1 40.0 sfu 159.5 -101.0 hd
+178.1 -101.0 r8 
+211.5 -101.0 r4 
+238.8 -113.0 hd 1 40.0 sfu 238.8 -92.0 hd
+262.3 -101.0 r8 
+284.0 -119.0 hl 284.0 -125.0 hl 284.0 -125.0 hd 1 40.0 sfu 284.0 -104.0 hd
+302.7 -101.0 r8 
+322.4 -83.0 hl 322.4 -83.0 hd 1 -40.0 sfd 322.4 -104.0 hd
+341.1 -101.0 r8 
+374.6 -101.0 r4 
+401.8 -113.0 hd 1 40.0 sfu 401.8 -92.0 hd
+420.5 -101.0 r8 
+438.4 -119.0 hl 438.4 -122.0 hd 40.0 su 438.4 -101.0 hd
+476.5 -119.0 hl 476.5 -122.0 hd 1 40.0 sfu 476.5 -101.0 hd
+498.1 -101.0 r8 
+534.6 -101.0 r4 
+561.8 -113.0 hd 1 40.0 sfu 561.8 -92.0 hd
+580.5 -101.0 r8 
+598.4 -119.0 hl 598.4 -122.0 hd 40.0 su 598.4 -101.0 hd
+636.6 -119.0 hl 636.6 -122.0 hd 1 40.0 sfu 636.6 -101.0 hd
+658.1 -101.0 r8 
+-5.76 -6.82 -24.96 -6.82 -30.72 0.23 0 -0.23 4.84 -5.05 25.88 -5.05 30.72 0.00 125.2 -122.0 SL
+-5.76 6.82 -24.96 6.82 -30.72 -0.23 0 0.23 4.84 5.05 25.88 5.05 30.72 0.00 125.2 -101.0 SL
+-5.84 -6.83 -25.30 -6.83 -31.14 0.23 0 -0.23 4.90 -5.06 26.23 -5.06 31.14 0.00 441.9 -122.0 SL
+-5.84 6.83 -25.30 6.83 -31.14 -0.23 0 0.23 4.90 5.06 26.23 5.06 31.14 0.00 441.9 -101.0 SL
+-5.84 -6.83 -25.30 -6.83 -31.14 0.23 0 -0.23 4.90 -5.06 26.23 -5.06 31.14 0.00 601.9 -122.0 SL
+-5.84 6.83 -25.30 6.83 -31.14 -0.23 0 0.23 4.90 5.06 26.23 5.06 31.14 0.00 601.9 -101.0 SL
+(f)210.5 -81.4 pf
+(p)372.6 -81.4 pf
+0 -136.00 T
+grestore
+showpage
+%%EndPage: 1 1
+%%Page: 2 2
+gsave 0.75 dup scale 0 1080.0 T
+% --- width 681.6
+67.20 0 T
+0 -22.00 T
+/y1{-124.0 add}!
+/yns1{-124.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -68.4 M 
+-0.0 -86.4 M 
+101.0 0.0 -124.0 bar
+101.0 0.0 -23.0 brace
+24.0 249.4 -47.0 bar 
+77.0 249.4 -124.0 bar 
+24.0 457.1 -47.0 bar 
+77.0 457.1 -124.0 bar 
+24.0 681.6 -47.0 bar 
+77.0 681.6 -124.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -124.0 M 0 RL 681.6 0.0 -118.0 M 0 RL 681.6 0.0 -112.0 M 0 RL 681.6 0.0 -106.0 M 0 RL 681.6 0.0 -100.0 M 0 RL stroke
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.0 -53.0 hl 45.0 -56.0 hd 1 34.0 sfu 45.0 -50.0 hd 45.0 -41.0 hd
+70.9 -35.0 r8 
+3.2 26.6 2.5 100.0 -21.7 bm
+96.8 -53.0 hl 96.8 -56.0 hd 33.3 su 96.8 -41.0 hd
+122.7 -50.0 hd 29.7 su 122.7 -38.0 hd
+151.5 -41.0 hd 1 25.0 sfu 151.5 -35.0 hd
+177.4 -35.0 r8 
+203.3 -47.0 hd 194.3 y ft0  1 34.0 sfu 210.4 -44.0 hd 203.3 -38.0 hd 203.3 -32.0 hd
+229.2 -35.0 r8 
+263.8 -50.0 Hd 40.0 su 263.8 -44.0 Hd 263.8 -35.0 Hd 263.8 -29.0 Hd
+356.3 -50.0 hd 1 34.0 sfu 356.3 -44.0 hd 356.3 -35.0 hd
+382.2 -35.0 r8 
+3.2 26.6 5.4 414.2 -17.2 bm
+411.0 -53.0 hl 411.0 -53.0 hd 34.9 su 411.0 -44.0 hd 411.0 -38.0 hd
+436.9 -44.0 hd 31.2 su 436.9 -38.0 hd 436.9 -29.0 hd
+471.4 -44.0 hd 1 28.0 sfu 471.4 -35.0 hd
+497.4 -35.0 r8 
+3.2 26.6 2.5 529.3 -15.7 bm
+526.1 -50.0 hd 33.3 su 526.1 -35.0 hd
+552.1 -44.0 hd 29.7 su 552.1 -32.0 hd
+580.8 -29.0 hd 1 -25.0 sfd 580.8 -35.0 hd
+606.8 -35.0 r8 
+635.5 -26.0 hd 626.5 y nt0  1 -34.0 sfd 628.5 -41.0 hd 635.5 -38.0 hd 635.5 -32.0 hd 619.5 y sh0 
+661.4 -35.0 r8 
+12.0 -106.0  bclef
+27.0 -118.0 ft0 
+45.0 -112.0 r4 
+96.8 -124.0 hd 1 40.0 sfu 96.8 -103.0 hd
+122.7 -112.0 r8 
+151.5 -130.0 hl 151.5 -133.0 hd 40.0 su 151.5 -112.0 hd
+203.3 -127.0 hd 1 40.0 sfu 203.3 -106.0 hd
+229.2 -112.0 r8 
+263.8 -112.0 r4 
+304.5 -97.0 hd 1 -40.0 sfd 304.5 -118.0 hd
+330.4 -112.0 r8 
+356.3 -127.0 hd 1 40.0 sfu 356.3 -106.0 hd
+382.2 -112.0 r8 
+-3.2 26.6 -0.0 407.2 -112.2 bm
+411.0 -94.0 hl 411.0 -88.0 hl 411.0 -88.0 hd 402.0 y ft0  -23.2 sd
+436.9 -94.0 hl 436.9 -88.0 hl 436.9 -88.0 hd -23.2 sd
+471.4 -94.0 hl 471.4 -91.0 hd 1 -21.0 sfd
+497.4 -112.0 r8 
+526.1 -97.0 hd 1 -40.0 sfd 526.1 -118.0 hd
+552.1 -112.0 r8 
+580.8 -127.0 hd 1 40.0 sfu 580.8 -106.0 hd
+606.8 -112.0 r8 
+635.5 -100.0 hd 1 -40.0 sfd 635.5 -121.0 hd
+661.4 -112.0 r8 
+393.5 99.8 -80.0 cresc
+0 -147.00 T
+/y1{-129.0 add}!
+/yns1{-129.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -70.9 M 
+-0.0 -88.9 M 
+106.0 0.0 -129.0 bar
+106.0 0.0 -23.0 brace
+24.0 284.6 -47.0 bar 
+82.0 284.6 -129.0 bar 
+24.0 515.2 -47.0 bar 
+82.0 515.2 -129.0 bar 
+24.0 681.6 -47.0 bar 
+82.0 681.6 -129.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -129.0 M 0 RL 681.6 0.0 -123.0 M 0 RL 681.6 0.0 -117.0 M 0 RL 681.6 0.0 -111.0 M 0 RL 681.6 0.0 -105.0 M 0 RL stroke
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.0 -23.0 hd -40.0 sd 45.0 -44.0 hd 45.0 -38.0 hd 45.0 -29.0 hd
+3.2 30.6 -2.6 108.1 -7.2 bm
+104.9 -47.0 hd 38.7 su 104.9 -41.0 hd 88.9 y sh0  104.9 -35.0 hd 95.9 y nt0  104.9 -26.0 hd
+134.8 -47.0 hd 36.3 su 134.8 -41.0 hd 134.8 -35.0 hd 134.8 -29.0 hd
+168.1 -47.0 hd 1 34.0 sfu 168.1 -38.0 hd 168.1 -32.0 hd
+198.1 -35.0 r8 
+231.3 -17.0 hl 231.3 -17.0 hd 1 -40.0 sfd 231.3 -38.0 hd 231.3 -32.0 hd 231.3 -23.0 hd
+261.3 -35.0 r8 
+301.2 -20.0 hd 7.7 0 dt -40.0 sd 301.2 -41.0 hd 7.7 3 dt 301.2 -32.0 hd 7.7 0 dt 301.2 -26.0 hd 7.7 0 dt
+381.5 -41.0 hd 1 28.0 sfu 381.5 -32.0 hd
+414.8 -26.0 hd -34.0 sd 414.8 -41.0 hd 414.8 -32.0 hd
+3.2 34.8 -0.0 460.3 -9.0 bm
+3.2 8.0 -0.0 486.7 -14.0 bm
+457.1 -44.0 hd 14.7 0 dt 34.0 su 464.1 -41.0 hd 7.7 3 dt 457.1 -35.0 hd 14.7 3 dt 448.1 y nt0  457.1 -29.0 hd 14.7 3 dt
+491.2 -44.0 hd 34.0 su 498.2 -41.0 hd 491.2 -35.0 hd 482.2 y nt0  491.2 -29.0 hd
+535.1 -44.0 Hd 34.0 su 542.9 -41.0 Hd 535.1 -35.0 Hd 525.1 y nt0  535.1 -29.0 Hd
+601.6 -47.0 hd 34.0 su 601.6 -41.0 hd 601.6 -32.0 hd
+648.7 -35.0 r4 
+12.0 -111.0  bclef
+27.0 -123.0 ft0 
+45.0 -135.0 hl 45.0 -138.0 hd 1 40.0 sfu 45.0 -117.0 hd
+74.9 -117.0 r8 
+104.9 -135.0 hl 104.9 -135.0 hd 1 40.0 sfu 104.9 -114.0 hd
+134.8 -117.0 r8 
+168.1 -105.0 hd 1 -40.0 sfd 168.1 -126.0 hd
+198.1 -117.0 r8 
+231.3 -132.0 hd 1 40.0 sfu 231.3 -111.0 hd
+261.3 -117.0 r8 
+301.2 -129.0 hd 40.0 su 301.2 -108.0 hd
+-3.2 34.0 4.5 344.4 -138.2 bm
+348.2 -99.0 hl 348.2 -99.0 hd -38.2 sd 348.2 -120.0 hd
+381.5 -99.0 hl 381.5 -99.0 hd -33.8 sd 381.5 -114.0 hd
+414.8 -108.0 hd -21.0 sd
+3.2 34.8 -0.0 460.3 -88.0 bm
+3.2 8.0 -0.0 486.7 -93.0 bm
+457.1 -129.0 hd 7.7 3 dt 40.0 su 457.1 -108.0 hd 7.7 0 dt
+491.2 -129.0 hd 40.0 su 491.2 -108.0 hd
+535.1 -129.0 Hd 40.0 su 535.1 -108.0 Hd
+601.6 -135.0 hl 601.6 -141.0 hl 601.6 -141.0 hd 40.0 su 601.6 -120.0 hd
+648.7 -117.0 r4 
+(f)44.0 -81.4 pf
+(ff)299.2 -81.4 pf
+0 -152.00 T
+/y1{-124.0 add}!
+/yns1{-124.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -68.4 M 
+-0.0 -86.4 M 
+101.0 0.0 -124.0 bar
+101.0 0.0 -23.0 brace
+51.5 -47.0 rdots 24.0 47.5 -47.0 bar 24.0 41.5 -47.0 thbar 
+51.5 -124.0 rdots 77.0 47.5 -124.0 bar 77.0 41.5 -124.0 thbar 
+24.0 211.8 -47.0 bar 
+77.0 211.8 -124.0 bar 
+24.0 381.4 -47.0 bar 
+77.0 381.4 -124.0 bar 
+24.0 533.2 -47.0 bar 
+77.0 533.2 -124.0 bar 
+24.0 681.6 -47.0 bar 
+77.0 681.6 -124.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -124.0 M 0 RL 681.6 0.0 -118.0 M 0 RL 681.6 0.0 -112.0 M 0 RL 681.6 0.0 -106.0 M 0 RL 681.6 0.0 -100.0 M 0 RL stroke
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+66.0 -53.0 hl 66.0 -59.0 hl 66.0 -59.0 Hd 34.0 su 66.0 -53.0 Hd 66.0 -44.0 Hd
+119.7 -53.0 hl 119.7 -59.0 hl 119.7 -65.0 hl 119.7 -65.0 hd 1 31.0 sfu 119.7 -59.0 hd 119.7 -53.0 hd
+144.0 -35.0 r8 
+3.2 28.3 2.5 174.0 -23.8 bm
+3.2 8.0 0.7 194.0 -27.0 bm
+170.8 -53.0 hl 170.8 -59.0 hl 170.8 -59.0 hd 7.7 3 dt 34.3 su 170.8 -53.0 hd 7.7 3 dt 170.8 -44.0 hd 7.7 0 dt
+198.5 -53.0 hl 198.5 -53.0 hd 30.7 su 198.5 -47.0 hd 198.5 -41.0 hd
+225.4 -53.0 hl 225.4 -53.0 Hd 34.0 su 225.4 -44.0 Hd 225.4 -38.0 Hd
+279.0 -53.0 hl 279.0 -59.0 hl 279.0 -59.0 hd 1 34.0 sfu 279.0 -53.0 hd 279.0 -44.0 hd
+303.3 -35.0 r8 
+3.2 28.4 2.5 333.3 -17.8 bm
+3.2 8.0 0.7 353.3 -21.0 bm
+330.2 -44.0 hd 7.7 0 dt 25.3 su 330.2 -38.0 hd 7.7 0 dt
+357.8 -44.0 hd 27.7 su 364.9 -41.0 hd 357.8 -35.0 hd
+394.9 -44.0 hd 31.0 su 394.9 -38.0 hd 394.9 -32.0 hd
+432.9 -44.0 hd 31.0 su 432.9 -38.0 hd 432.9 -32.0 hd
+1.8 8.6 4.3 454.0 -14.1 bm
+1.8 8.0 4.0 454.3 -17.5 bm
+452.0 -32.0 ghd 17.0 gu
+460.0 -26.0 ghd 15.0 gu
+0.00 -4.80 11.60 -6.00 14.50 -6.00 451.0 -36.5 gsl
+471.0 -44.0 hd 7.7 0 dt 34.0 su 471.0 -38.0 hd 7.7 0 dt 471.0 -29.0 hd 7.7 3 dt
+514.3 -44.0 hd 1 31.0 sfu 514.3 -38.0 hd 514.3 -32.0 hd
+546.8 -44.0 Hd 31.0 su 546.8 -38.0 Hd 546.8 -32.0 Hd
+600.4 -53.0 hl 600.4 -59.0 hl 600.4 -59.0 hd 40.0 su 600.4 -53.0 hd 600.4 -44.0 hd 600.4 -38.0 hd
+638.5 -53.0 hl 638.5 -59.0 hl 638.5 -59.0 hd 1 40.0 sfu 638.5 -53.0 hd 638.5 -44.0 hd 638.5 -38.0 hd
+662.7 -35.0 r8 
+-5.82 -6.83 -25.23 -6.83 -31.05 0.23 0 -0.23 4.89 -5.06 26.16 -5.06 31.05 0.00 603.9 -59.0 SL
+-5.82 -6.83 -25.23 -6.83 -31.05 0.23 0 -0.23 4.89 -5.06 26.16 -5.06 31.05 0.00 603.9 -53.0 SL
+-5.82 6.83 -25.23 6.83 -31.05 -0.23 0 0.23 4.89 5.06 26.16 5.06 31.05 0.00 603.9 -44.0 SL
+-5.82 6.83 -25.23 6.83 -31.05 -0.23 0 0.23 4.89 5.06 26.16 5.06 31.05 0.00 603.9 -38.0 SL
+12.0 -106.0  bclef
+27.0 -118.0 ft0 
+66.0 -127.0 Hd 40.0 su 66.0 -115.0 Hd 66.0 -106.0 Hd
+119.7 -130.0 hl 119.7 -136.0 hl 119.7 -142.0 hl 119.7 -148.0 hl 119.7 -148.0 hd 1 40.0 sfu 119.7 -127.0 hd
+144.0 -112.0 r8 
+-3.2 28.3 4.3 167.0 -141.1 bm
+-3.2 8.0 1.2 187.0 -133.1 bm
+170.8 -106.0 hd 7.7 3 dt -34.1 sd 170.8 -121.0 hd 7.7 0 dt
+198.5 -103.0 hd -32.9 sd 198.5 -115.0 hd
+225.4 -100.0 Hd -25.0 sd 225.4 -106.0 Hd
+279.0 -130.0 hl 279.0 -136.0 hl 279.0 -142.0 hl 279.0 -148.0 hl 279.0 -148.0 hd 1 40.0 sfu 279.0 -127.0 hd
+303.3 -112.0 r8 
+-3.2 28.4 -0.0 326.3 -125.9 bm
+-3.2 8.0 -0.0 346.3 -120.9 bm
+330.2 -100.0 hd 7.7 3 dt -25.0 sd 330.2 -106.0 hd 7.7 3 dt
+357.8 -97.0 hd -28.0 sd 350.8 -106.0 hd 357.8 -103.0 hd
+394.9 -94.0 hl 394.9 -94.0 hd -31.0 sd 394.9 -106.0 hd 394.9 -100.0 hd
+432.9 -94.0 hl 432.9 -94.0 hd -31.0 sd 432.9 -106.0 hd 432.9 -100.0 hd
+471.0 -100.0 hd 1 -31.0 sfd 471.0 -112.0 hd 471.0 -106.0 hd 7.7 3 dt
+514.3 -94.0 hl 514.3 -94.0 hd 1 -31.0 sfd 514.3 -106.0 hd 514.3 -100.0 hd
+546.8 -94.0 hl 546.8 -94.0 Hd -31.0 sd 546.8 -106.0 Hd 546.8 -100.0 Hd
+600.4 -127.0 hd 40.0 su 600.4 -115.0 hd 600.4 -106.0 hd
+638.5 -127.0 hd 1 40.0 sfu 638.5 -115.0 hd 638.5 -106.0 hd
+662.7 -112.0 r8 
+-5.82 -6.83 -25.23 -6.83 -31.05 0.23 0 -0.23 4.89 -5.06 26.16 -5.06 31.05 0.00 603.9 -127.0 SL
+-5.82 -6.83 -25.23 -6.83 -31.05 0.23 0 -0.23 4.89 -5.06 26.16 -5.06 31.05 0.00 603.9 -115.0 SL
+-5.82 6.83 -25.23 6.83 -31.05 -0.23 0 0.23 4.89 5.06 26.16 5.06 31.05 0.00 603.9 -106.0 SL
+(ff)64.0 -79.4 pf
+0 -154.00 T
+/y1{-105.0 add}!
+/yns1{-105.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -58.9 M 
+-0.0 -76.9 M 
+82.0 0.0 -105.0 bar
+82.0 0.0 -23.0 brace
+24.0 183.7 -47.0 bar 
+58.0 183.7 -105.0 bar 
+24.0 335.0 -47.0 bar 
+58.0 335.0 -105.0 bar 
+24.0 491.5 -47.0 bar 
+58.0 491.5 -105.0 bar 
+24.0 681.6 -47.0 bar 
+58.0 681.6 -105.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -105.0 M 0 RL 681.6 0.0 -99.0 M 0 RL 681.6 0.0 -93.0 M 0 RL 681.6 0.0 -87.0 M 0 RL 681.6 0.0 -81.0 M 0 RL stroke
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.5 -53.0 hl 45.5 -53.0 Hd 40.0 su 45.5 -47.0 Hd 45.5 -41.0 Hd 45.5 -32.0 Hd
+96.3 -53.0 hl 96.3 -53.0 hd 1 34.0 sfu 96.3 -44.0 hd 96.3 -38.0 hd
+119.3 -35.0 r8 
+3.2 26.9 4.2 147.9 -23.1 bm
+3.2 8.0 1.3 166.5 -25.2 bm
+144.7 -53.0 hl 144.7 -53.0 hd 7.7 3 dt 28.9 su 144.7 -44.0 hd 7.7 0 dt
+171.0 -53.0 hl 171.0 -53.0 hd 33.1 su 171.0 -44.0 hd 171.0 -38.0 hd
+196.7 -53.0 hl 196.7 -53.0 Hd 40.0 su 196.7 -47.0 Hd 196.7 -41.0 Hd 196.7 -32.0 Hd
+247.5 -53.0 hl 247.5 -53.0 hd 1 34.0 sfu 247.5 -44.0 hd 247.5 -38.0 hd
+270.5 -35.0 r8 
+3.2 26.9 4.2 299.1 -23.1 bm
+3.2 8.0 1.3 317.7 -25.2 bm
+296.0 -53.0 hl 296.0 -53.0 hd 7.7 3 dt 28.9 su 296.0 -44.0 hd 7.7 0 dt
+322.2 -53.0 hl 322.2 -53.0 hd 33.1 su 322.2 -44.0 hd 322.2 -38.0 hd
+347.9 -53.0 hl 347.9 -53.0 hd 31.0 su 347.9 -47.0 hd 347.9 -41.0 hd
+3.2 26.9 2.5 386.9 -11.8 bm
+3.2 8.0 0.7 405.5 -15.0 bm
+383.8 -47.0 hd 7.7 3 dt 34.3 su 383.8 -41.0 hd 7.7 3 dt 383.8 -32.0 hd 7.7 0 dt
+410.0 -44.0 hd 33.7 su 417.0 -41.0 hd 410.0 -29.0 hd
+430.0 -53.0 hl 430.0 -53.0 hd 31.0 su 430.0 -47.0 hd 430.0 -41.0 hd
+466.1 -47.0 hd 31.0 su 473.1 -44.0 hd 466.1 -41.0 hd 466.1 -35.0 hd 457.1 y nt0 
+504.4 -53.0 hl 504.4 -53.0 hd 1 40.0 sfu 504.4 -47.0 hd 504.4 -41.0 hd 504.4 -32.0 hd
+527.5 -35.0 r8 
+3.2 26.9 -0.0 553.5 -28.8 bm
+3.2 8.0 -0.0 572.1 -33.8 bm
+550.4 -53.0 hl 550.4 -53.0 hd 7.7 3 dt 23.2 su
+576.6 -53.0 hl 576.6 -53.0 hd 23.2 su
+594.7 -53.0 hl 594.7 -53.0 hd 1 21.0 sfu
+617.7 -35.0 r8 
+640.6 -53.0 hl 640.6 -53.0 hd 1 21.0 sfu
+663.7 -35.0 r8 
+12.0 -87.0  bclef
+27.0 -99.0 ft0 
+45.5 -84.0 Hd -31.0 sd 45.5 -96.0 Hd
+96.3 -81.0 hd 1 -25.0 sfd 96.3 -87.0 hd
+119.3 -93.0 r8 
+-3.2 26.9 -3.1 140.9 -104.4 bm
+-3.2 8.0 -0.9 159.5 -101.6 bm
+144.7 -81.0 hd 7.7 3 dt -22.5 sd
+171.0 -81.0 hd -25.5 sd 171.0 -87.0 hd
+196.7 -84.0 Hd -31.0 sd 196.7 -96.0 Hd
+247.5 -81.0 hd 1 -25.0 sfd 247.5 -87.0 hd
+270.5 -93.0 r8 
+-3.2 26.9 -3.1 292.1 -104.4 bm
+-3.2 8.0 -0.9 310.7 -101.6 bm
+296.0 -81.0 hd 7.7 3 dt -22.5 sd
+322.2 -81.0 hd -25.5 sd 322.2 -87.0 hd
+347.9 -84.0 hd -21.0 sd
+-3.2 26.9 -0.0 379.9 -106.9 bm
+-3.2 8.0 -0.0 398.5 -101.9 bm
+383.8 -84.0 hd 7.7 0 dt -22.0 sd
+410.0 -84.0 hd -22.0 sd
+430.0 -105.0 hd 40.0 su 430.0 -84.0 hd
+466.1 -105.0 hd 40.0 su 466.1 -84.0 hd
+504.4 -111.0 hl 504.4 -117.0 hl 504.4 -117.0 hd 1 40.0 sfu 504.4 -96.0 hd
+527.5 -93.0 r8 
+3.2 26.9 -0.0 553.5 -73.1 bm
+3.2 8.0 -0.0 572.1 -78.1 bm
+550.4 -96.0 hd 7.7 0 dt 22.0 su
+576.6 -96.0 hd 22.0 su
+594.7 -96.0 hd 1 21.0 sfu
+617.7 -93.0 r8 
+640.6 -96.0 hd 1 21.0 sfu
+663.7 -93.0 r8 
+0 -128.00 T
+/y1{-106.0 add}!
+/yns1{-106.0 add}!
+/y0{-47.0 add}!
+/yns0{-47.0 add}!
+-0.0 -59.4 M 
+-0.0 -77.4 M 
+83.0 0.0 -106.0 bar
+83.0 0.0 -23.0 brace
+24.0 179.9 -47.0 bar 
+59.0 179.9 -106.0 bar 
+24.0 348.0 -47.0 bar 
+59.0 348.0 -106.0 bar 
+24.0 525.5 -47.0 bar 
+59.0 525.5 -106.0 bar 
+24.0 681.6 -47.0 bar 
+59.0 681.6 -106.0 bar 
+dlw 681.6 0.0 -47.0 M 0 RL 681.6 0.0 -41.0 M 0 RL 681.6 0.0 -35.0 M 0 RL 681.6 0.0 -29.0 M 0 RL 681.6 0.0 -23.0 M 0 RL stroke
+dlw 681.6 0.0 -106.0 M 0 RL 681.6 0.0 -100.0 M 0 RL 681.6 0.0 -94.0 M 0 RL 681.6 0.0 -88.0 M 0 RL 681.6 0.0 -82.0 M 0 RL stroke
+12.0 -41.0  tclef
+27.0 -35.0 ft0 
+45.5 -50.0 Hd 40.0 su 45.5 -35.0 Hd 45.5 -29.0 Hd
+99.9 -53.0 hl 99.9 -53.0 hd 40.0 su 99.9 -38.0 hd 99.9 -32.0 hd
+3.2 28.6 -4.3 141.6 -16.9 bm
+3.2 8.0 -1.2 161.8 -24.9 bm
+138.4 -38.0 hd 7.7 0 dt 20.1 su
+166.3 -44.0 hd 21.9 su
+196.9 -53.0 hl 196.9 -53.0 xydef 40.0 su 196.9 -38.0 hd 196.9 -32.0 hd
+244.1 -41.0 hd 25.0 su 244.1 -35.0 hd
+282.6 -44.0 hd 25.0 su 282.6 -38.0 hd
+321.1 -35.0 r4 
+361.7 -50.0 hd 7.7 0 dt 40.0 su 361.7 -35.0 hd 7.7 3 dt 361.7 -29.0 hd 7.7 3 dt
+405.5 -53.0 hl 405.5 -53.0 hd 1 40.0 sfu 405.5 -38.0 hd 405.5 -32.0 hd
+3.2 74.3 -7.3 436.0 -10.9 bm
+432.8 -50.0 hd 38.1 su 432.8 -35.0 hd 432.8 -29.0 hd
+457.3 -53.0 hl 457.3 -53.0 hd 38.7 su 457.3 -38.0 hd 457.3 -32.0 hd
+481.8 -53.0 hl 481.8 -53.0 hd 36.3 su 481.8 -41.0 hd 481.8 -35.0 hd
+506.4 -53.0 hl 506.4 -53.0 hd 33.9 su 506.4 -44.0 hd 506.4 -38.0 hd
+539.1 -50.0 hd 34.0 su 539.1 -41.0 hd 539.1 -35.0 hd
+577.7 -50.0 hd 31.0 su 577.7 -44.0 hd 577.7 -38.0 hd
+616.2 -47.0 hd 25.0 su 616.2 -41.0 hd
+654.6 -35.0 r4 
+12.0 -88.0  bclef
+27.0 -100.0 ft0 
+45.5 -91.0 Hd -25.0 sd 45.5 -97.0 Hd
+99.9 -88.0 hd -28.0 sd 99.9 -97.0 hd
+-3.2 28.6 -4.3 134.6 -106.0 bm
+-3.2 8.0 -1.2 154.8 -104.0 bm
+138.4 -82.0 hd 7.7 3 dt -23.0 sd
+166.3 -88.0 hd -21.2 sd
+196.9 -88.0 hd -28.0 sd 189.9 -97.0 hd 196.9 -94.0 hd
+244.1 -85.0 hd -31.0 sd 244.1 -97.0 hd 244.1 -91.0 hd
+282.6 -82.0 hd -34.0 sd 282.6 -97.0 hd 282.6 -88.0 hd
+321.1 -94.0 r4 
+361.7 -91.0 hd 7.7 0 dt -25.0 sd 361.7 -97.0 hd 7.7 0 dt
+405.5 -88.0 hd 1 -28.0 sfd 405.5 -97.0 hd
+-3.2 74.3 -0.0 429.0 -116.0 bm
+432.8 -91.0 hd -24.0 sd 432.8 -97.0 hd
+457.3 -88.0 hd -27.0 sd 457.3 -97.0 hd
+481.8 -85.0 hd -30.0 sd 481.8 -97.0 hd
+506.4 -82.0 hd -33.0 sd 506.4 -97.0 hd
+539.1 -79.0 hd -37.0 sd 539.1 -97.0 hd
+577.7 -79.0 hd 568.7 y nt0  -37.0 sd 577.7 -97.0 hd
+616.2 -76.0 hl 616.2 -76.0 hd -40.0 sd 616.2 -97.0 hd
+654.6 -94.0 r4 
+-3.2 28.6 -0.0 193.0 -74.0 bm
+-3.2 8.0 -0.0 213.3 -69.0 bm
+196.9 -53.0 hl 196.9 -53.0 hd 7.7 -3 dt -20.0 sd
+224.8 -53.0 hl 224.8 -53.0 hd -20.0 sd
+244.1 -53.0 hl 244.1 -53.0 hd -19.0 sd
+282.6 -53.0 hl 282.6 -53.0 hd -19.0 sd
+(ff)43.5 -70.4 pf
+0 -129.00 T
+/y1{-115.0 add}!
+/yns1{-115.0 add}!
+/y0{-52.0 add}!
+/yns0{-52.0 add}!
+-0.0 -66.4 M 
+-0.0 -84.4 M 
+87.0 0.0 -115.0 bar
+87.0 0.0 -28.0 brace
+24.0 158.0 -52.0 bar 
+63.0 158.0 -115.0 bar 
+24.0 303.3 -52.0 bar 
+63.0 303.3 -115.0 bar 
+24.0 421.9 -52.0 bar 
+63.0 421.9 -115.0 bar 
+24.0 582.4 -52.0 thbar 24.0 579.4 -52.0 bar 575.4 -52.0 rdots 
+63.0 582.4 -115.0 thbar 63.0 579.4 -115.0 bar 575.4 -115.0 rdots 
+24.0 678.6 -52.0 thbar 24.0 675.6 -52.0 bar 
+63.0 678.6 -115.0 thbar 63.0 675.6 -115.0 bar 
+dlw 681.6 0.0 -52.0 M 0 RL 681.6 0.0 -46.0 M 0 RL 681.6 0.0 -40.0 M 0 RL 681.6 0.0 -34.0 M 0 RL 681.6 0.0 -28.0 M 0 RL stroke
+dlw 681.6 0.0 -115.0 M 0 RL 681.6 0.0 -109.0 M 0 RL 681.6 0.0 -103.0 M 0 RL 681.6 0.0 -97.0 M 0 RL 681.6 0.0 -91.0 M 0 RL stroke
+13.0 F2 (1)-11.4 3 155.5 421.9 50.0 yns0 repbra
+(2)-11.4 3 96.2 585.4 50.0 yns0 repbra
+12.0 -46.0  tclef
+27.0 -40.0 ft0 
+45.0 -58.0 hl 45.0 -64.0 hl 45.0 -70.0 hl 45.0 -70.0 hd 7.7 3 dt 40.0 su 45.0 -49.0 hd 7.7 0 dt
+74.9 -58.0 hl 74.9 -64.0 hl 74.9 -64.0 hd 1 25.0 sfu 74.9 -58.0 hd
+3.2 50.6 6.7 97.5 -34.9 bm
+94.3 -58.0 hl 94.3 -61.0 hd 25.2 su 94.3 -55.0 hd
+111.1 -58.0 hl 111.1 -58.0 hd 24.4 su 111.1 -52.0 hd
+127.6 -55.0 hd 23.6 su 127.6 -49.0 hd
+144.2 -52.0 hd 22.8 su 144.2 -46.0 hd
+3.2 50.3 -0.0 173.6 -21.8 bm
+170.5 -49.0 hd 26.2 su 170.5 -43.0 hd
+187.0 -52.0 hd 29.2 su 187.0 -46.0 hd
+203.6 -49.0 hd 26.2 su 203.6 -43.0 hd
+220.1 -46.0 hd 23.2 su 220.1 -40.0 hd
+238.3 -43.0 hd 1 25.0 sfu 238.3 -37.0 hd
+255.6 -40.0 r8 
+272.2 -55.0 hd 1 40.0 sfu 272.2 -49.0 hd 272.2 -40.0 hd 272.2 -34.0 hd
+289.5 -40.0 r8 
+316.3 -58.0 hl 316.3 -64.0 hl 316.3 -64.0 Hd 34.0 su 316.3 -58.0 Hd 316.3 -49.0 Hd
+1.8 8.6 4.3 337.8 -31.1 bm
+1.8 8.0 4.0 338.1 -34.5 bm
+335.8 -49.0 ghd 17.0 gu
+343.8 -43.0 ghd 15.0 gu
+0.00 -4.80 11.60 -6.00 14.50 -6.00 334.8 -53.5 gsl
+354.8 -58.0 hl 354.8 -61.0 hd 34.0 su 361.9 -58.0 361.9 -58.0 hl hd 354.8 -52.0 hd 354.8 -46.0 hd
+3.2 25.7 -2.5 387.5 -26.3 bm
+3.2 8.0 -0.8 404.9 -32.9 bm
+384.4 -58.0 hl 384.4 -61.0 hd 14.7 0 dt 33.7 su 391.4 -58.0 391.4 -58.0 hl hd 7.7 3 dt 384.4 -52.0 hd 14.7 3 dt 384.4 -46.0 hd 14.7 3 dt
+409.4 -58.0 hl 409.4 -64.0 hl 409.4 -64.0 hd 34.3 su 409.4 -58.0 hd 409.4 -49.0 hd
+434.4 -58.0 hl 434.4 -64.0 hl 434.4 -64.0 hd 1 34.0 sfu 434.4 -58.0 hd 434.4 -49.0 hd
+-3.2 13.1 -0.0 449.9 -52.2 bm
+-3.2 12.4 -0.0 450.3 -47.2 bm
+453.8 -28.0 hd -23.2 sd
+466.2 -28.0 hd -23.2 sd
+-3.2 17.5 -3.6 475.9 -44.2 bm
+479.7 -22.0 hl 479.7 -22.0 hd -21.3 sd
+496.5 -28.0 hd -18.7 sd
+-3.2 50.6 -0.0 511.2 -62.2 bm
+515.0 -37.0 hd -24.2 sd
+531.8 -28.0 hd -33.2 sd
+548.4 -43.0 hd -18.2 sd
+564.9 -37.0 hd -24.2 sd
+598.4 -58.0 hl 598.4 -64.0 hl 598.4 -64.0 Hd 34.0 su 598.4 -58.0 Hd 598.4 -49.0 Hd
+635.0 -58.0 hl 635.0 -64.0 hl 635.0 -64.0 hd 34.0 su 635.0 -58.0 hd 635.0 -49.0 hd
+660.1 -40.0 r4 
+-4.22 -6.68 -18.30 -6.68 -22.52 0.22 0 -0.22 3.55 -4.91 18.97 -4.91 22.52 0.00 358.3 -61.0 SL
+-4.22 6.68 -18.30 6.68 -22.52 -0.22 0 0.22 3.55 4.91 18.97 4.91 22.52 0.00 362.6 -58.0 SL
+-4.22 6.68 -18.30 6.68 -22.52 -0.22 0 0.22 3.55 4.91 18.97 4.91 22.52 0.00 358.3 -52.0 SL
+-4.22 6.68 -18.30 6.68 -22.52 -0.22 0 0.22 3.55 4.91 18.97 4.91 22.52 0.00 358.3 -46.0 SL
+-5.55 -6.80 -24.05 -6.80 -29.59 0.23 0 -0.23 4.66 -5.03 24.93 -5.03 29.59 0.00 601.9 -64.0 SL
+-5.55 -6.80 -24.05 -6.80 -29.59 0.23 0 -0.23 4.66 -5.03 24.93 -5.03 29.59 0.00 601.9 -58.0 SL
+-5.55 6.80 -24.05 6.80 -29.59 -0.23 0 0.23 4.66 5.03 24.93 5.03 29.59 0.00 601.9 -49.0 SL
+12.0 -97.0  bclef
+27.0 -109.0 ft0 
+45.0 -121.0 hl 45.0 -127.0 hl 45.0 -133.0 hl 45.0 -139.0 hl 45.0 -139.0 hd 7.7 3 dt 40.0 su 45.0 -118.0 hd 7.7 0 dt
+74.9 -112.0 hd 1 25.0 sfu 74.9 -106.0 hd
+-3.2 50.6 6.7 90.5 -126.9 bm
+94.3 -103.0 hd -22.8 sd 94.3 -109.0 hd
+111.1 -100.0 hd -23.6 sd 111.1 -106.0 hd
+127.6 -97.0 hd -24.4 sd 127.6 -103.0 hd
+144.2 -94.0 hd -25.2 sd 144.2 -100.0 hd
+-3.2 50.3 -0.0 166.6 -117.9 bm
+170.5 -91.0 hd -26.0 sd 170.5 -97.0 hd
+187.0 -94.0 hd -23.0 sd 187.0 -100.0 hd
+203.6 -91.0 hd -26.0 sd 203.6 -97.0 hd
+220.1 -88.0 hd -29.0 sd 220.1 -94.0 hd
+238.3 -85.0 hl 238.3 -85.0 hd 1 -25.0 sfd 238.3 -91.0 hd
+255.6 -103.0 r8 
+272.2 -121.0 hl 272.2 -127.0 hl 272.2 -130.0 hd 1 40.0 sfu 272.2 -109.0 hd
+289.5 -103.0 r8 
+316.3 -121.0 hl 316.3 -127.0 hl 316.3 -127.0 Hd 40.0 su 316.3 -106.0 Hd
+354.8 -121.0 hl 354.8 -127.0 hl 354.8 -127.0 hd 40.0 su 354.8 -106.0 hd
+3.2 25.7 -6.3 387.5 -88.7 bm
+3.2 8.0 -2.0 404.9 -98.0 bm
+384.4 -121.0 hl 384.4 -127.0 hl 384.4 -127.0 hd 7.7 3 dt 37.2 su 384.4 -106.0 hd 7.7 0 dt
+409.4 -121.0 hl 409.4 -127.0 hl 409.4 -133.0 hl 409.4 -139.0 hl 409.4 -139.0 hd 43.1 su 409.4 -118.0 hd
+434.4 -121.0 hl 434.4 -127.0 hl 434.4 -133.0 hl 434.4 -139.0 hl 434.4 -139.0 hd 1 40.0 sfu 434.4 -118.0 hd
+-3.2 13.1 -0.0 449.9 -103.2 bm
+-3.2 12.4 -0.0 450.3 -98.2 bm
+453.8 -85.0 hl 453.8 -79.0 hl 453.8 -76.0 hd -26.2 sd
+466.2 -85.0 hl 466.2 -79.0 hl 466.2 -76.0 hd -26.2 sd
+-3.2 17.5 -0.0 475.9 -103.2 bm
+479.7 -85.0 hl 479.7 -79.0 hl 479.7 -73.0 hl 479.7 -70.0 hd -32.2 sd
+496.5 -85.0 hl 496.5 -79.0 hl 496.5 -76.0 hd -26.2 sd
+-3.2 50.6 -0.0 511.2 -109.2 bm
+515.0 -85.0 hl 515.0 -85.0 hd -23.2 sd
+531.8 -85.0 hl 531.8 -79.0 hl 531.8 -76.0 hd -32.2 sd
+548.4 -91.0 hd -17.2 sd
+564.9 -85.0 hl 564.9 -85.0 hd -23.2 sd
+598.4 -121.0 hl 598.4 -127.0 hl 598.4 -133.0 hl 598.4 -139.0 hl 598.4 -139.0 Hd 40.0 su 598.4 -118.0 Hd
+635.0 -121.0 hl 635.0 -127.0 hl 635.0 -133.0 hl 635.0 -139.0 hl 635.0 -139.0 hd 40.0 su 635.0 -118.0 hd
+660.1 -103.0 r4 
+-4.22 -6.68 -18.30 -6.68 -22.52 0.22 0 -0.22 3.55 -4.91 18.97 -4.91 22.52 0.00 358.3 -127.0 SL
+-4.22 6.68 -18.30 6.68 -22.52 -0.22 0 0.22 3.55 4.91 18.97 4.91 22.52 0.00 358.3 -106.0 SL
+-5.55 -6.80 -24.05 -6.80 -29.59 0.23 0 -0.23 4.66 -5.03 24.93 -5.03 29.59 0.00 601.9 -139.0 SL
+-5.55 6.80 -24.05 6.80 -29.59 -0.23 0 0.23 4.66 5.03 24.93 5.03 29.59 0.00 601.9 -118.0 SL
+0 -150.00 T
+grestore
+showpage
+%%EndPage: 2 2
+%%Trailer
+%%Pages: 2
+%EOF
