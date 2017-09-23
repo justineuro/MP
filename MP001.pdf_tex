@@ -50,7 +50,7 @@
   \makeatother%
   \begin{picture}(1,1.43999032)%
     \put(0,0){\includegraphics[width=\unitlength]{MP001.pdf}}%
-    \put(0.50614046,1.41800358){\makebox(0,0)[b]{\smash{\Large Marche Pontificale}}}%
+    \put(0.50614046,1.41800358){\makebox(0,0)[b]{\smash{\bf \Large Marche Pontificale}}}%
     \put(0.99925842,1.38327696){\makebox(0,0)[rb]{\smash{\em Charles Gounod}}}%
     \put(0.09477472,1.34999729){\makebox(0,0)[lb]{\smash{Allegretto maestoso}}}%
     \put(0.31760388,1.34999729){\makebox(0,0)[lb]{\smash{= 100}}}%
