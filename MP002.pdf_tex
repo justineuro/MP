@@ -48,10 +48,18 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.22165582)%
+  \begin{picture}(1,1.20284557)%
     \put(0,0){\includegraphics[width=\unitlength]{MP002.pdf}}%
-    \put(0.07668794,0.91287832){\makebox(0,0)[lb]{\smash{\em \large f}}}%
-    \put(0.44594765,0.91287832){\makebox(0,0)[lb]{\smash{\em \large ff}}}%
+    \put(0.60858397,1.11443738){\makebox(0,0)[lb]{\smash{\em \large cre -}}}%
+    \put(0.69453238,1.11588432){\makebox(0,0)[lb]{\smash{\em \large -}}}%
+    \put(0.75298881,1.11588432){\makebox(0,0)[lb]{\smash{\em \large -}}}%
+    \put(0.79393735,1.11588432){\makebox(0,0)[lb]{\smash{\em \large scen -}}}%
+    \put(0.91808499,1.11299044){\makebox(0,0)[lb]{\smash{\em \large -}}}%
+    \put(0.98840636,1.11299044){\makebox(0,0)[lb]{\smash{\em \large -}}}%
+    \put(0.07596447,1.1067686){\makebox(0,0)[lb]{\smash{\em \large p}}}%
+    \put(0.06728282,0.91475932){\makebox(0,0)[lb]{\smash{\em \large - do}}}%
+    \put(0.33742697,0.91287832){\makebox(0,0)[lb]{\smash{\em \large f}}}%
+    \put(0.5909313,0.91287832){\makebox(0,0)[lb]{\smash{\em \large ff}}}%
     \put(0.10562679,0.69583695){\makebox(0,0)[lb]{\smash{\em \large ff}}}%
     \put(0.07596447,0.30082162){\makebox(0,0)[lb]{\smash{\em \large ff}}}%
     \put(0.62927527,0.18940706){\makebox(0,0)[lb]{\smash{1}}}%

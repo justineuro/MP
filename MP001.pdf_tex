@@ -48,23 +48,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.43999032)%
+  \begin{picture}(1,1.24320615)%
     \put(0,0){\includegraphics[width=\unitlength]{MP001.pdf}}%
-    \put(0.50614046,1.41800358){\makebox(0,0)[b]{\smash{\bf \Large Marche Pontificale}}}%
-    \put(0.99925842,1.38327696){\makebox(0,0)[rb]{\smash{\em Charles Gounod}}}%
-    \put(0.09477472,1.34999729){\makebox(0,0)[lb]{\smash{Allegretto maestoso}}}%
-    \put(0.31760388,1.34999729){\makebox(0,0)[lb]{\smash{= 100}}}%
-    \put(0.10056249,1.27128363){\makebox(0,0)[lb]{\smash{\em \large f}}}%
-    \put(0.10056249,1.17723237){\makebox(0,0)[lb]{\smash{\em \large f}}}%
-    \put(0.07741142,1.07449946){\makebox(0,0)[lb]{\smash{\em \large f}}}%
-    \put(0.07741142,0.98912985){\makebox(0,0)[lb]{\smash{\em \large f}}}%
-    \put(0.6916385,0.49253924){\makebox(0,0)[lb]{\smash{\em \large cresc.}}}%
-    \put(0.10692905,0.48559384){\makebox(0,0)[lb]{\smash{\em \large p}}}%
-    \put(0.10692905,0.41035284){\makebox(0,0)[lb]{\smash{\em \large p}}}%
-    \put(0.2490188,0.29430813){\makebox(0,0)[lb]{\smash{\em \large dim.}}}%
-    \put(0.39009566,0.27868108){\makebox(0,0)[lb]{\smash{\em \large p}}}%
-    \put(0.12212195,0.08739536){\makebox(0,0)[lb]{\smash{\em \large cresc.}}}%
-    \put(0.31760388,0.07610914){\makebox(0,0)[lb]{\smash{\em \large f}}}%
-    \put(0.55215321,0.07610914){\makebox(0,0)[lb]{\smash{\em \large p}}}%
+    \put(0.50614046,1.22121941){\makebox(0,0)[b]{\smash{\bf\Large Marche Pontificale}}}%
+    \put(0.99925842,1.18649279){\makebox(0,0)[rb]{\smash{Charles Gounod}}}%
+    \put(0.09477472,1.15321312){\makebox(0,0)[lb]{\smash{\bf\small\hspace{-0.10in}Allegretto maestoso}}}%
+    \put(0.31760388,1.15321312){\makebox(0,0)[lb]{\smash{= 100}}}%
+    \put(0.10056249,1.07449946){\makebox(0,0)[lb]{\smash{\em \large f}}}%
+    \put(0.07741142,0.87771529){\makebox(0,0)[lb]{\smash{\em \large f}}}%
+    \put(0.54159055,0.29575507){\makebox(0,0)[lb]{\smash{\em \large cresc.}}}%
+    \put(0.92170235,0.29358465){\makebox(0,0)[lb]{\smash{\em \large dim.}}}%
+    \put(0.10490332,0.28880967){\makebox(0,0)[lb]{\smash{\em \large p}}}%
+    \put(0.58152617,0.083778){\makebox(0,0)[lb]{\smash{\em \large cresc.}}}%
+    \put(0.07596447,0.08189691){\makebox(0,0)[lb]{\smash{\em \large p}}}%
+    \put(0.773246,0.08189691){\makebox(0,0)[lb]{\smash{\em \large f}}}%
   \end{picture}%
 \endgroup%
