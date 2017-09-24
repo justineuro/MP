@@ -50,18 +50,18 @@
   \makeatother%
   \begin{picture}(1,1.20284557)%
     \put(0,0){\includegraphics[width=\unitlength]{MP002.pdf}}%
-    \put(0.60858397,1.11443738){\makebox(0,0)[lb]{\smash{\em \large cre -}}}%
-    \put(0.69453238,1.11588432){\makebox(0,0)[lb]{\smash{\em \large -}}}%
-    \put(0.75298881,1.11588432){\makebox(0,0)[lb]{\smash{\em \large -}}}%
-    \put(0.79393735,1.11588432){\makebox(0,0)[lb]{\smash{\em \large scen -}}}%
-    \put(0.91808499,1.11299044){\makebox(0,0)[lb]{\smash{\em \large -}}}%
-    \put(0.98840636,1.11299044){\makebox(0,0)[lb]{\smash{\em \large -}}}%
-    \put(0.07596447,1.1067686){\makebox(0,0)[lb]{\smash{\em \large p}}}%
-    \put(0.06728282,0.91475932){\makebox(0,0)[lb]{\smash{\em \large - do}}}%
-    \put(0.33742697,0.91287832){\makebox(0,0)[lb]{\smash{\em \large f}}}%
-    \put(0.5909313,0.91287832){\makebox(0,0)[lb]{\smash{\em \large ff}}}%
-    \put(0.10562679,0.69583695){\makebox(0,0)[lb]{\smash{\em \large ff}}}%
-    \put(0.07596447,0.30082162){\makebox(0,0)[lb]{\smash{\em \large ff}}}%
+    \put(0.60858397,1.11443738){\makebox(0,0)[lb]{\smash{\textbf{$\maybebm{cre}$ -}}}}%
+    \put(0.69453238,1.11588432){\makebox(0,0)[lb]{\smash{\textbf{-}}}}%
+    \put(0.75298881,1.11588432){\makebox(0,0)[lb]{\smash{\textbf{-}}}}%
+    \put(0.79393735,1.11588432){\makebox(0,0)[lb]{\smash{\textbf{$\maybebm{scen}$ -}}}}%
+    \put(0.91808499,1.11299044){\makebox(0,0)[lb]{\smash{\textbf{-}}}}%
+    \put(0.98840636,1.11299044){\makebox(0,0)[lb]{\smash{\textbf{-}}}}%
+    \put(0.07596447,1.1067686){\makebox(0,0)[lb]{\smash{\textbf{$\maybebm{p}$}}}}%
+    \put(0.06728282,0.91475932){\makebox(0,0)[lb]{\smash{\textbf{\hspace{-0.10in}- $\maybebm{do}$}}}}%
+    \put(0.33742697,0.91287832){\makebox(0,0)[lb]{\smash{\textbf{$\maybebm{f}$}}}}%
+    \put(0.5909313,0.91287832){\makebox(0,0)[lb]{\smash{\textbf{$\maybebm{f}\hspace{-0.05in}\maybebm{f}$}}}}%
+    \put(0.10562679,0.69583695){\makebox(0,0)[lb]{\smash{\textbf{$\maybebm{f}\hspace{-0.05in}\maybebm{f}$}}}}%
+    \put(0.07596447,0.30082162){\makebox(0,0)[lb]{\smash{\textbf{$\maybebm{f}\hspace{-0.05in}\maybebm{f}$}}}}%
     \put(0.62927527,0.18940706){\makebox(0,0)[lb]{\smash{1}}}%
     \put(0.86585031,0.18940706){\makebox(0,0)[lb]{\smash{2}}}%
   \end{picture}%
